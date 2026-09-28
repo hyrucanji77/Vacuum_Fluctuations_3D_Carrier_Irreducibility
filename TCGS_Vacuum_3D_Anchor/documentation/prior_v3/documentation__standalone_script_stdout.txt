@@ -1,0 +1,12 @@
+{
+  "nominal": {
+    "frequency_kHz": 1.0,
+    "oscillator_length_um": 0.5090860211754605,
+    "rms_width_um": 0.3599781777804465,
+    "gap_over_kB_nK": 47.99243073366221,
+    "zero_point_over_kB_nK": 23.996215366831105,
+    "kinetic_over_kB_nK": 11.998107683415553,
+    "g2D_relative_to_1kHz": 1.0
+  },
+  "checks_passed": 475
+}

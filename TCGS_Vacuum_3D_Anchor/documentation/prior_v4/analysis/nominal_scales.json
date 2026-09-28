@@ -1,0 +1,136 @@
+{
+  "revision_diagnostics": {
+    "readout_ratios": {
+      "scaled_Omega_prime_over_gap": 12.959999999999997,
+      "unscaled_Omega_over_gap": 10.996924661013185
+    },
+    "thermal_benchmark_assumptions": "T_z equals spin fit and independent canonical harmonic oscillator; not a measured Bose-gas fraction.",
+    "conditional_axial_thermal_benchmarks": [
+      {
+        "temperature_nK": 6.0,
+        "gap_over_kBT": 7.998738455610368,
+        "canonical_excited_probability": 0.0003358860959543839,
+        "canonical_excited_percent": 0.03358860959543839,
+        "canonical_mean_nu": 0.000335998953331063
+      },
+      {
+        "temperature_nK": 12.0,
+        "gap_over_kBT": 3.999369227805184,
+        "canonical_excited_probability": 0.018327195528895956,
+        "canonical_excited_percent": 1.8327195528895956,
+        "canonical_mean_nu": 0.01866935240074222
+      }
+    ],
+    "mean_field_balance_test": {
+      "interaction_ratios": [
+        31.0,
+        -53.0,
+        220.0
+      ],
+      "exact_Z0_for_these_ratios": 0.5294117647058824,
+      "scope": "Algebraic equality, not experimental profile certification."
+    },
+    "toy_Gaussian_overlap_tests": [
+      {
+        "width_ratio": 0.97,
+        "ground_profile_overlap": 0.9997681219132263,
+        "second_mode_overlap": -0.021526261311959307,
+        "complementary_overlap_weight": 0.0004637024061002748
+      },
+      {
+        "width_ratio": 1.0,
+        "ground_profile_overlap": 1.0,
+        "second_mode_overlap": 0.0,
+        "complementary_overlap_weight": 0.0
+      },
+      {
+        "width_ratio": 1.03,
+        "ground_profile_overlap": 0.9997816249503849,
+        "second_mode_overlap": 0.020890581363736543,
+        "complementary_overlap_weight": 0.0004367024115679019
+      },
+      {
+        "width_ratio": 1.3,
+        "ground_profile_overlap": 0.9831290611762872,
+        "second_mode_overlap": 0.1783168349063675,
+        "complementary_overlap_weight": 0.03345724907063219
+      }
+    ],
+    "matched_carrier_scaling_cases": [
+      {
+        "lambda": 0.2,
+        "frequency_kHz": 24.999999999999996,
+        "mu_s_over_gap": 0.036000000000000004,
+        "kinetic_resource_multiplier": 24.999999999999996
+      },
+      {
+        "lambda": 0.25,
+        "frequency_kHz": 16.0,
+        "mu_s_over_gap": 0.05625,
+        "kinetic_resource_multiplier": 16.0
+      },
+      {
+        "lambda": 0.3333333333333333,
+        "frequency_kHz": 9.0,
+        "mu_s_over_gap": 0.1,
+        "kinetic_resource_multiplier": 9.000000000000002
+      },
+      {
+        "lambda": 0.5,
+        "frequency_kHz": 4.0,
+        "mu_s_over_gap": 0.225,
+        "kinetic_resource_multiplier": 4.0
+      },
+      {
+        "lambda": 1.0,
+        "frequency_kHz": 1.0,
+        "mu_s_over_gap": 0.9,
+        "kinetic_resource_multiplier": 1.0
+      },
+      {
+        "lambda": 1.04,
+        "frequency_kHz": 0.9245562130177514,
+        "mu_s_over_gap": 0.9734400000000001,
+        "kinetic_resource_multiplier": 0.9245562130177514
+      },
+      {
+        "lambda": 1.1,
+        "frequency_kHz": 0.8264462809917354,
+        "mu_s_over_gap": 1.0890000000000002,
+        "kinetic_resource_multiplier": 0.8264462809917354
+      }
+    ],
+    "pulse_bound_scope": "Exactly solvable two-sector toy Hamiltonians; no actual experimental leakage fit."
+  },
+  "status": "nominal analytic calculation; no new experimental data or fit",
+  "source": "Zhang et al., arXiv:2608.20311v1, Supplementary Materials",
+  "mass_model": "39 times deliberately rounded u = 1.66054e-27 kg",
+  "source_inputs": {
+    "fz_hz_approx": 1000.0,
+    "box_side_m_approx": 3.3e-05,
+    "mu_s_over_h_Hz_approx": 900.0,
+    "mu_d_over_h_Hz_approx": 120.0,
+    "alpha_approx": 0.72
+  },
+  "derived_nominal": {
+    "frequency_kHz": 1.0,
+    "oscillator_length_um": 0.5090860211754605,
+    "rms_width_um": 0.3599781777804465,
+    "gap_over_kB_nK": 47.99243073366221,
+    "zero_point_over_kB_nK": 23.996215366831105,
+    "kinetic_over_kB_nK": 11.998107683415553,
+    "g2D_relative_to_1kHz": 1.0
+  },
+  "derived_ratios": {
+    "ell_over_L": 0.015426849126529104,
+    "sigma_over_L": 0.0109084296297105,
+    "mu_d_over_gap": 0.12,
+    "mu_s_over_gap": 0.9,
+    "mu_s_prime_over_gap": 0.648
+  },
+  "illustrative_only": {
+    "variance_relative_SE_M70": 0.17025130615174972,
+    "variance_relative_SE_M120": 0.12964074471043288,
+    "finite_readout_r_at_zero_epsilon": 1.0488088481701516
+  }
+}

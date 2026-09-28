@@ -1,0 +1,86 @@
+[
+  {
+    "group": "Harmonic saturation",
+    "cases": 1,
+    "manuscript": "Eq. (18), using Eqs. (7) and (9)",
+    "scope": "Compares the ground-state kinetic energy with the finite-width lower bound."
+  },
+  {
+    "group": "Rounded aspect ratio",
+    "cases": 1,
+    "manuscript": "Section 7.1",
+    "scope": "Checks the manuscript's rounded oscillator-length-to-box-side ratio."
+  },
+  {
+    "group": "Effective interaction identity",
+    "cases": 1,
+    "manuscript": "Eq. (13)",
+    "scope": "Compares the two algebraic expressions for the Gaussian-overlap coupling."
+  },
+  {
+    "group": "Planar coupling degeneracy",
+    "cases": 4,
+    "manuscript": "Proposition 14.1; Eq. (59)",
+    "scope": "Checks a/ell invariance for four finite matching transformations."
+  },
+  {
+    "group": "Mode covariance and readout",
+    "cases": 180,
+    "manuscript": "Eqs. (26), (31), (34), (36), (39), (40), (64), (65), and (71)",
+    "scope": "Evaluates the dimensionless dispersion and tests covariance/readout identities over specified a, N, and angle values. The dispersion is an input formula, not independently derived by the script."
+  },
+  {
+    "group": "Quench determinant",
+    "cases": 144,
+    "manuscript": "Appendix A, Eqs. (67)--(69)",
+    "scope": "Evaluates the displayed covariance components and checks determinant preservation on the finite parameter grid."
+  },
+  {
+    "group": "Local spectral slope",
+    "cases": 5,
+    "manuscript": "Eqs. (45)--(46)",
+    "scope": "Compares the analytic slope with a centred logarithmic finite difference at five positive values."
+  },
+  {
+    "group": "Fixed-scattering confinement scaling",
+    "cases": 8,
+    "manuscript": "Eqs. (63), (75); Table 4",
+    "scope": "Checks square-root width scaling and linear kinetic-energy scaling."
+  },
+  {
+    "group": "Readout-to-gap ratios",
+    "cases": 2,
+    "manuscript": "Eq. (21a); Table 2",
+    "scope": "Checks 12.96 and the rounded unscaled ratio 11.0 from the declared inputs."
+  },
+  {
+    "group": "Conditional axial thermal benchmark",
+    "cases": 8,
+    "manuscript": "Eq. (21b)",
+    "scope": "Checks normalization, the excited tail, p1/p0, and the mean of an independent canonical oscillator at 6 and 12 nK."
+  },
+  {
+    "group": "Mean-field balance",
+    "cases": 18,
+    "manuscript": "Section 7.2, unnumbered mean-field equations",
+    "scope": "Checks the imbalance-dependent potential difference and the balanced common potential; does not certify actual transverse profiles."
+  },
+  {
+    "group": "Transverse profile overlaps",
+    "cases": 14,
+    "manuscript": "Section 5.1, unnumbered overlap formulas",
+    "scope": "Compares explicit Gaussian-profile overlaps with Simpson quadrature and checks complementary overlap bounds."
+  },
+  {
+    "group": "Matched-carrier feasibility",
+    "cases": 29,
+    "manuscript": "Eqs. (59), (59a); finite-resource scaling",
+    "scope": "Checks finite matching transformations, the lambda-squared spin/gap ratio, localization cost, and the illustrative lambda <= 1/3 screen."
+  },
+  {
+    "group": "Finite-pulse bound",
+    "cases": 60,
+    "manuscript": "Appendix B, Eq. (74a)",
+    "scope": "Checks the amplitude inequality for exactly solvable two-sector constant toy Hamiltonians, not the actual experimental pulse."
+  }
+]

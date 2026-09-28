@@ -1,0 +1,38 @@
+--- v2/overleaf/main.tex
++++ v3/overleaf/main.tex
+@@ -243,7 +243,7 @@
+ This matrix-element statement applies to the Rabi amplitude itself, not only to the RF carrier frequency. For a spatially uniform spin-flip term, choose a phase convention in which
+ \[
+  H_{\mathrm{RF}}^{\mathrm{flip}}(t)
+- =\frac{\hbar\Omega_m(t)}{2}I_z\otimes
++ =\frac{\hbar\Omega_m(t)}{2}I_{L^2(\R_z)}\otimes
+  \bigl(\lvert\uparrow\rangle\langle\downarrow\rvert
+        +\lvert\downarrow\rangle\langle\uparrow\rvert\bigr).
+ \]
+@@ -266,7 +266,7 @@
+ \]
+ For unequal normalized ground profiles, the total squared overlap with the complementary down-spin basis is
+ $1-|\langle f_{0\downarrow},f_{0\uparrow}\rangle|^2$.
+-This is a channel-overlap weight, not a measured excitation probability; pulse duration, detunings, and interactions are also required. Uniform coupling does not directly impart transverse momentum, but it need not preserve a spin-dependent low-energy subspace. Profile equality and its maintenance during readout must therefore be checked rather than inferred from spatial uniformity alone.\cite{zhang2026,precursor}
++This is a channel-overlap weight, not a measured excitation probability; pulse duration, detunings, and interactions are also required. Uniform coupling does not directly impart transverse momentum, but it need not preserve a spin-dependent low-energy subspace. Profile equality and its maintenance during readout must therefore be checked rather than inferred from spatial uniformity alone. The operating-state mean-field equality permitting a common equilibrium profile is derived in Section~\ref{sec:readout_hierarchy}.\cite{zhang2026,precursor}
+ 
+ \subsection{An isometric embedding is not a spatial identification}
+ For a normalized $f\in L^2(\R)$ define
+@@ -433,7 +433,7 @@
+ $\mu_d/(\hbar\omega_z)$ & $\simeq0.120$ & Ratio of reported scales\\
+ $\mu_s/(\hbar\omega_z)$ & $\simeq0.900$ & Ratio of reported scales\\
+ $\musp/(\hbar\omega_z)$, $\alpha=0.72$ & $\simeq0.648$ & Scaled spin ratio\\
+-$\hbar\Omega'_m/(\hbar\omega_z)$ & $\simeq12.96$ & Scaled readout ratio\cite{zhang2026}\\
++$\hbar\Omega'_m/(\hbar\omega_z)$ & $\simeq12.96$ & Derived from reported ratio\cite{zhang2026}\\
+ $\hbar\Omega_m/(\hbar\omega_z)$ & $\simeq11.0$ & Unscaled readout ratio\\
+ Spin-sector temperature fit & $(6\pm6)\,\mathrm{nK}$ & Source fit, not refitted\\
+ \bottomrule
+@@ -1034,7 +1034,7 @@
+ 
+ For example, a proposed source-induced correction to a cross-mode covariance would need a defined tensor or kernel, a dimensional normalization, an experimental estimator, and a comparison against finite-temperature, imaging, and interaction corrections. Merely identifying a residual with Counterspace would not supply any of these. The framework becomes more restrictive, not less, when the standard experimental description is retained in full.
+ 
+-The appropriate next-level analogue of the atomic form factor is therefore a source-derived \emph{observable response}, not an assumed fourth-direction Gaussian width. In a differentiable realization, let $\boldsymbol m_\sigma(\Xi)$ be a specified vector of calibrated mean or covariance predictions produced by the source-to-observable construction. For an admissible source-model variation $v$, a candidate sensitivity is
++The appropriate next-level analogue of the atomic form factor is therefore a source-derived \emph{observable response}, not an assumed fourth-direction Gaussian width. In a differentiable realization, let $\boldsymbol m_\sigma(\Xi)$ be a specified vector of calibrated mean or covariance predictions produced by the source-to-observable construction. For this sensitivity analysis, assume a local Banach-manifold structure on admissible source configurations near $\Xi_0$ and Fr\'echet differentiability of $\boldsymbol m_\sigma$ there. For an admissible source-model variation $v$, a candidate sensitivity is
+ \[
+  \mathsf L_\sigma=D\boldsymbol m_\sigma[\Xi_0],
+  \qquad \delta\boldsymbol m_\sigma=\mathsf L_\sigma v.

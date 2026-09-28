@@ -1,0 +1,28 @@
+{
+  "revision": "v3",
+  "compiler": "pdfLaTeX via latexmk",
+  "main_pages": 36,
+  "unique_labels": 113,
+  "duplicate_source_labels": 0,
+  "bibitem_count": 25,
+  "v2_label_values_unchanged": true,
+  "numbered_equation_environments_unchanged": 83,
+  "main_latex_warnings": [],
+  "layout_diagnostics": {
+    "pages": 36,
+    "affected_pages": {
+      "matrix-element statement applies": 9,
+      "operating-state mean-field equality": 9,
+      "Derived from reported ratio": 13,
+      "Banach-manifold": 30
+    },
+    "out_of_page_spans": []
+  },
+  "analytic_parameter_cases": 475,
+  "all_passed": true,
+  "unchanged_script": true,
+  "script_sha256": "4cc0e657583c1ca190bca2b4d80caab795f71fc6dafcb0c9a8391573befa1fbe",
+  "reference_PDFs_included": 6,
+  "external_reference_PDFs_missing": 19,
+  "scope": "Mechanical preservation/build checks and finite-case numerical identities; not experimental replication, proof of all formulas, or journal acceptance."
+}

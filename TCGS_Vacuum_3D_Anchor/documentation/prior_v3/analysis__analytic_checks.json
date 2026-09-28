@@ -1,0 +1,3992 @@
+{
+  "all_passed": true,
+  "checks": 475,
+  "scope": "Numerical checks of named analytic identities; not experimental validation.",
+  "max_relative_error": 1.1691621609961451e-11,
+  "details": [
+    {
+      "check": "harmonic ground state saturates finite-energy width bound",
+      "actual": 1.6565175375e-31,
+      "expected": 1.6565175375e-31,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "manuscript rounded aspect ratio",
+      "actual": 0.0154,
+      "expected": 0.0154,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "Gaussian transverse overlap coupling identity",
+      "actual": 8.45545798078532e-45,
+      "expected": 8.455457980785317e-45,
+      "relative_error": 3.733809166716685e-30,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "planar coupling non-identifiability lambda=0.2",
+      "actual": 0.009821522870447685,
+      "expected": 0.009821522870447685,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "planar coupling non-identifiability lambda=0.5",
+      "actual": 0.009821522870447685,
+      "expected": 0.009821522870447685,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "planar coupling non-identifiability lambda=2.0",
+      "actual": 0.009821522870447685,
+      "expected": 0.009821522870447685,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "planar coupling non-identifiability lambda=5.0",
+      "actual": 0.009821522870447687,
+      "expected": 0.009821522870447685,
+      "relative_error": 1.7662469444493941e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "covariance anisotropy a=0.025",
+      "actual": 8.88888888888889,
+      "expected": 8.88888888888889,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.025, N=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.025, N=0.0",
+      "actual": 4.444444444444445,
+      "expected": 4.444444444444445,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.025, N=0.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.0, theta=0.0",
+      "actual": 4.5,
+      "expected": 4.5,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.0, theta=0.13",
+      "actual": 4.425311062521141,
+      "expected": 4.425311062521141,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.0, theta=0.7",
+      "actual": 2.6554825397783137,
+      "expected": 2.6554825397783133,
+      "relative_error": 1.6723484458953974e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.0, theta=1.3",
+      "actual": 0.373580548069006,
+      "expected": 0.37358054806900576,
+      "relative_error": 5.943687541354972e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.025, N=0.05",
+      "actual": 0.30250000000000005,
+      "expected": 0.30250000000000005,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.025, N=0.05",
+      "actual": 4.888888888888889,
+      "expected": 4.888888888888889,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.025, N=0.05",
+      "actual": 1.1,
+      "expected": 1.1,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.05, theta=0.0",
+      "actual": 4.95,
+      "expected": 4.95,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.05, theta=0.13",
+      "actual": 4.8678421687732545,
+      "expected": 4.8678421687732545,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.05, theta=0.7",
+      "actual": 2.9210307937561453,
+      "expected": 2.921030793756145,
+      "relative_error": 1.520316768995816e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.05, theta=1.3",
+      "actual": 0.41093860287590656,
+      "expected": 0.41093860287590633,
+      "relative_error": 5.403352310322702e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.025, N=0.5",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.025, N=0.5",
+      "actual": 8.88888888888889,
+      "expected": 8.88888888888889,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.025, N=0.5",
+      "actual": 2.0,
+      "expected": 2.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.5, theta=0.0",
+      "actual": 9.0,
+      "expected": 9.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.5, theta=0.13",
+      "actual": 8.850622125042282,
+      "expected": 8.850622125042282,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.5, theta=0.7",
+      "actual": 5.310965079556627,
+      "expected": 5.3109650795566266,
+      "relative_error": 1.6723484458953974e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=0.5, theta=1.3",
+      "actual": 0.747161096138012,
+      "expected": 0.7471610961380115,
+      "relative_error": 5.943687541354972e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.025, N=3.0",
+      "actual": 12.25,
+      "expected": 12.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.025, N=3.0",
+      "actual": 31.11111111111111,
+      "expected": 31.11111111111111,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.025, N=3.0",
+      "actual": 7.0,
+      "expected": 7.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=3.0, theta=0.0",
+      "actual": 31.5,
+      "expected": 31.5,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=3.0, theta=0.13",
+      "actual": 30.97717743764799,
+      "expected": 30.97717743764798,
+      "relative_error": 2.2937620355834776e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=3.0, theta=0.7",
+      "actual": 18.588377778448198,
+      "expected": 18.588377778448194,
+      "relative_error": 1.911255366737597e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.025, N=3.0, theta=1.3",
+      "actual": 2.615063836483042,
+      "expected": 2.615063836483042,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench Rabi limit a=0.025",
+      "actual": 40.0,
+      "expected": 40.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "covariance anisotropy a=0.1",
+      "actual": 4.364357804719847,
+      "expected": 4.364357804719847,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.1, N=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.1, N=0.0",
+      "actual": 2.1821789023599236,
+      "expected": 2.1821789023599236,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.1, N=0.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.0, theta=0.0",
+      "actual": 2.29128784747792,
+      "expected": 2.29128784747792,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.0, theta=0.13",
+      "actual": 2.25461630716656,
+      "expected": 2.2546163071665593,
+      "relative_error": 3.9393772540229876e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.0, theta=0.7",
+      "actual": 1.3856477529636084,
+      "expected": 1.3856477529636082,
+      "relative_error": 1.6024606863477728e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.0, theta=1.3",
+      "actual": 0.26525611666235166,
+      "expected": 0.2652561166623517,
+      "relative_error": 2.0927378388004814e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.1, N=0.05",
+      "actual": 0.3025000000000001,
+      "expected": 0.30250000000000005,
+      "relative_error": 1.8350793795457126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.1, N=0.05",
+      "actual": 2.400396792595916,
+      "expected": 2.400396792595916,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.1, N=0.05",
+      "actual": 1.1,
+      "expected": 1.1,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.05, theta=0.0",
+      "actual": 2.520416632225712,
+      "expected": 2.520416632225712,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.05, theta=0.13",
+      "actual": 2.480077937883216,
+      "expected": 2.4800779378832156,
+      "relative_error": 1.7906260245559036e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.05, theta=0.7",
+      "actual": 1.5242125282599694,
+      "expected": 1.5242125282599692,
+      "relative_error": 1.4567824421343387e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.05, theta=1.3",
+      "actual": 0.29178172832858684,
+      "expected": 0.29178172832858706,
+      "relative_error": 7.609955777456291e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.1, N=0.5",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.1, N=0.5",
+      "actual": 4.364357804719847,
+      "expected": 4.364357804719847,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.1, N=0.5",
+      "actual": 2.0,
+      "expected": 2.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.5, theta=0.0",
+      "actual": 4.58257569495584,
+      "expected": 4.58257569495584,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.5, theta=0.13",
+      "actual": 4.50923261433312,
+      "expected": 4.5092326143331185,
+      "relative_error": 3.9393772540229876e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.5, theta=0.7",
+      "actual": 2.771295505927217,
+      "expected": 2.7712955059272164,
+      "relative_error": 1.6024606863477728e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=0.5, theta=1.3",
+      "actual": 0.5305122333247033,
+      "expected": 0.5305122333247034,
+      "relative_error": 2.0927378388004814e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.1, N=3.0",
+      "actual": 12.25,
+      "expected": 12.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.1, N=3.0",
+      "actual": 15.275252316519465,
+      "expected": 15.275252316519465,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.1, N=3.0",
+      "actual": 7.0,
+      "expected": 7.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=3.0, theta=0.0",
+      "actual": 16.039014932345438,
+      "expected": 16.039014932345438,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=3.0, theta=0.13",
+      "actual": 15.782314150165917,
+      "expected": 15.782314150165917,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=3.0, theta=0.7",
+      "actual": 9.699534270745259,
+      "expected": 9.699534270745257,
+      "relative_error": 1.831383641540312e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.1, N=3.0, theta=1.3",
+      "actual": 1.8567928166364613,
+      "expected": 1.856792816636462,
+      "relative_error": 3.587550580800825e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench Rabi limit a=0.1",
+      "actual": 10.0,
+      "expected": 10.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "covariance anisotropy a=0.5",
+      "actual": 1.788854381999832,
+      "expected": 1.7888543819998317,
+      "relative_error": 1.2412670766236363e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.5, N=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.5, N=0.0",
+      "actual": 0.894427190999916,
+      "expected": 0.8944271909999159,
+      "relative_error": 1.2412670766236363e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.5, N=0.0",
+      "actual": 1.0000000000000002,
+      "expected": 1.0,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.0, theta=0.0",
+      "actual": 1.118033988749895,
+      "expected": 1.118033988749895,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.0, theta=0.13",
+      "actual": 1.1030031300265983,
+      "expected": 1.1030031300265983,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.0, theta=0.7",
+      "actual": 0.7468320103432089,
+      "expected": 0.7468320103432089,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.0, theta=1.3",
+      "actual": 0.2876080929123333,
+      "expected": 0.28760809291233325,
+      "relative_error": 1.9300969826387449e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.5, N=0.05",
+      "actual": 0.30250000000000005,
+      "expected": 0.30250000000000005,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.5, N=0.05",
+      "actual": 0.9838699100999075,
+      "expected": 0.9838699100999075,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.5, N=0.05",
+      "actual": 1.1,
+      "expected": 1.1,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.05, theta=0.0",
+      "actual": 1.2298373876248845,
+      "expected": 1.2298373876248845,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.05, theta=0.13",
+      "actual": 1.2133034430292584,
+      "expected": 1.2133034430292584,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.05, theta=0.7",
+      "actual": 0.8215152113775299,
+      "expected": 0.8215152113775298,
+      "relative_error": 1.3514333140143768e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.05, theta=1.3",
+      "actual": 0.3163689022035666,
+      "expected": 0.31636890220356667,
+      "relative_error": 1.7546336205806768e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.5, N=0.5",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.5, N=0.5",
+      "actual": 1.788854381999832,
+      "expected": 1.7888543819998317,
+      "relative_error": 1.2412670766236363e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.5, N=0.5",
+      "actual": 2.0000000000000004,
+      "expected": 2.0,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.5, theta=0.0",
+      "actual": 2.23606797749979,
+      "expected": 2.23606797749979,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.5, theta=0.13",
+      "actual": 2.2060062600531967,
+      "expected": 2.2060062600531967,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.5, theta=0.7",
+      "actual": 1.4936640206864178,
+      "expected": 1.4936640206864178,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=0.5, theta=1.3",
+      "actual": 0.5752161858246666,
+      "expected": 0.5752161858246665,
+      "relative_error": 1.9300969826387449e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=0.5, N=3.0",
+      "actual": 12.25,
+      "expected": 12.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=0.5, N=3.0",
+      "actual": 6.260990336999411,
+      "expected": 6.260990336999411,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=0.5, N=3.0",
+      "actual": 7.0,
+      "expected": 7.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=3.0, theta=0.0",
+      "actual": 7.826237921249264,
+      "expected": 7.826237921249264,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=3.0, theta=0.13",
+      "actual": 7.721021910186189,
+      "expected": 7.721021910186188,
+      "relative_error": 1.1503379086754946e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=3.0, theta=0.7",
+      "actual": 5.227824072402464,
+      "expected": 5.227824072402463,
+      "relative_error": 1.6989447376180737e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=0.5, N=3.0, theta=1.3",
+      "actual": 2.013256650386333,
+      "expected": 2.0132566503863334,
+      "relative_error": 2.205825123015708e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench Rabi limit a=0.5",
+      "actual": 2.0000000000000004,
+      "expected": 2.0,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "covariance anisotropy a=1.0",
+      "actual": 1.1547005383792515,
+      "expected": 1.1547005383792517,
+      "relative_error": 1.9229626863835636e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=1.0, N=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=1.0, N=0.0",
+      "actual": 0.5773502691896257,
+      "expected": 0.5773502691896258,
+      "relative_error": 1.9229626863835636e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=1.0, N=0.0",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "relative_error": 1.1102230246251565e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.0, theta=0.0",
+      "actual": 0.8660254037844386,
+      "expected": 0.8660254037844386,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.0, theta=0.13",
+      "actual": 0.8563230261986847,
+      "expected": 0.8563230261986846,
+      "relative_error": 1.296500258265345e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.0, theta=0.7",
+      "actual": 0.6264155570430487,
+      "expected": 0.6264155570430486,
+      "relative_error": 1.772342675948036e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.0, theta=1.3",
+      "actual": 0.3299877929780635,
+      "expected": 0.32998779297806347,
+      "relative_error": 1.6822183248138522e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=1.0, N=0.05",
+      "actual": 0.30250000000000005,
+      "expected": 0.30250000000000005,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=1.0, N=0.05",
+      "actual": 0.6350852961085883,
+      "expected": 0.6350852961085884,
+      "relative_error": 1.7481478967123305e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=1.0, N=0.05",
+      "actual": 1.0999999999999999,
+      "expected": 1.1,
+      "relative_error": 2.0185873175002846e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.05, theta=0.0",
+      "actual": 0.9526279441628825,
+      "expected": 0.9526279441628827,
+      "relative_error": 1.1654319311415536e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.05, theta=0.13",
+      "actual": 0.9419553288185534,
+      "expected": 0.9419553288185532,
+      "relative_error": 2.3572731968460816e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.05, theta=0.7",
+      "actual": 0.6890571127473535,
+      "expected": 0.6890571127473536,
+      "relative_error": 1.6112206144982144e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.05, theta=1.3",
+      "actual": 0.3629865722758699,
+      "expected": 0.36298657227586995,
+      "relative_error": 1.5292893861944108e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=1.0, N=0.5",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=1.0, N=0.5",
+      "actual": 1.1547005383792515,
+      "expected": 1.1547005383792517,
+      "relative_error": 1.9229626863835636e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=1.0, N=0.5",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "relative_error": 1.1102230246251565e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.5, theta=0.0",
+      "actual": 1.7320508075688772,
+      "expected": 1.7320508075688772,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.5, theta=0.13",
+      "actual": 1.7126460523973694,
+      "expected": 1.7126460523973692,
+      "relative_error": 1.296500258265345e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.5, theta=0.7",
+      "actual": 1.2528311140860975,
+      "expected": 1.2528311140860973,
+      "relative_error": 1.772342675948036e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=0.5, theta=1.3",
+      "actual": 0.659975585956127,
+      "expected": 0.6599755859561269,
+      "relative_error": 1.6822183248138522e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=1.0, N=3.0",
+      "actual": 12.25,
+      "expected": 12.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=1.0, N=3.0",
+      "actual": 4.04145188432738,
+      "expected": 4.041451884327381,
+      "relative_error": 2.197671641581216e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=1.0, N=3.0",
+      "actual": 6.999999999999998,
+      "expected": 7.0,
+      "relative_error": 2.5376526277146434e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=3.0, theta=0.0",
+      "actual": 6.06217782649107,
+      "expected": 6.06217782649107,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=3.0, theta=0.13",
+      "actual": 5.994261183390793,
+      "expected": 5.994261183390792,
+      "relative_error": 1.48171458087468e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=3.0, theta=0.7",
+      "actual": 4.384908899301341,
+      "expected": 4.38490889930134,
+      "relative_error": 2.0255344867977553e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=1.0, N=3.0, theta=1.3",
+      "actual": 2.309914550846444,
+      "expected": 2.309914550846445,
+      "relative_error": 3.845070456717376e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench Rabi limit a=1.0",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "relative_error": 2.220446049250313e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "covariance anisotropy a=3.0",
+      "actual": 0.5163977794943222,
+      "expected": 0.5163977794943222,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=3.0, N=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=3.0, N=0.0",
+      "actual": 0.2581988897471611,
+      "expected": 0.2581988897471611,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=3.0, N=0.0",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "relative_error": 1.1102230246251565e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.0, theta=0.0",
+      "actual": 0.6454972243679028,
+      "expected": 0.6454972243679027,
+      "relative_error": 1.7199501139797033e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.0, theta=0.13",
+      "actual": 0.6411581892028796,
+      "expected": 0.6411581892028795,
+      "relative_error": 1.731589868649174e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.0, theta=0.7",
+      "actual": 0.5383404432894919,
+      "expected": 0.5383404432894918,
+      "relative_error": 2.0623065542711518e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.0, theta=1.3",
+      "actual": 0.40577391711597666,
+      "expected": 0.40577391711597666,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=3.0, N=0.05",
+      "actual": 0.30250000000000005,
+      "expected": 0.30250000000000005,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=3.0, N=0.05",
+      "actual": 0.28401877872187725,
+      "expected": 0.28401877872187725,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=3.0, N=0.05",
+      "actual": 1.1,
+      "expected": 1.1,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.05, theta=0.0",
+      "actual": 0.7100469468046932,
+      "expected": 0.7100469468046932,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.05, theta=0.13",
+      "actual": 0.7052740081231677,
+      "expected": 0.7052740081231675,
+      "relative_error": 1.5741726078628853e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.05, theta=0.7",
+      "actual": 0.5921744876184412,
+      "expected": 0.5921744876184412,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.05, theta=1.3",
+      "actual": 0.44635130882757434,
+      "expected": 0.44635130882757434,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=3.0, N=0.5",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=3.0, N=0.5",
+      "actual": 0.5163977794943222,
+      "expected": 0.5163977794943222,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=3.0, N=0.5",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "relative_error": 1.1102230246251565e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.5, theta=0.0",
+      "actual": 1.2909944487358056,
+      "expected": 1.2909944487358054,
+      "relative_error": 1.7199501139797033e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.5, theta=0.13",
+      "actual": 1.2823163784057592,
+      "expected": 1.282316378405759,
+      "relative_error": 1.731589868649174e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.5, theta=0.7",
+      "actual": 1.0766808865789839,
+      "expected": 1.0766808865789836,
+      "relative_error": 2.0623065542711518e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=0.5, theta=1.3",
+      "actual": 0.8115478342319533,
+      "expected": 0.8115478342319533,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=3.0, N=3.0",
+      "actual": 12.25,
+      "expected": 12.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=3.0, N=3.0",
+      "actual": 1.8073922282301278,
+      "expected": 1.8073922282301278,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=3.0, N=3.0",
+      "actual": 7.0,
+      "expected": 7.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=3.0, theta=0.0",
+      "actual": 4.51848057057532,
+      "expected": 4.51848057057532,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=3.0, theta=0.13",
+      "actual": 4.488107324420158,
+      "expected": 4.488107324420157,
+      "relative_error": 1.9789598498847701e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=3.0, theta=0.7",
+      "actual": 3.7683831030264434,
+      "expected": 3.7683831030264434,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=3.0, N=3.0, theta=1.3",
+      "actual": 2.840417419811837,
+      "expected": 2.8404174198118364,
+      "relative_error": 1.5634646047181378e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench Rabi limit a=3.0",
+      "actual": 0.33333333333333326,
+      "expected": 0.3333333333333333,
+      "relative_error": 1.6653345369377348e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "covariance anisotropy a=20.0",
+      "actual": 0.09534625892455939,
+      "expected": 0.09534625892455924,
+      "relative_error": 1.6010661310449992e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=20.0, N=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=20.0, N=0.0",
+      "actual": 0.047673129462279695,
+      "expected": 0.04767312946227962,
+      "relative_error": 1.6010661310449992e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=20.0, N=0.0",
+      "actual": 1.0000000000000016,
+      "expected": 1.0,
+      "relative_error": 1.5543122344752168e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.0, theta=0.0",
+      "actual": 0.5244044240850758,
+      "expected": 0.5244044240850758,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.0, theta=0.13",
+      "actual": 0.5236032766232642,
+      "expected": 0.5236032766232641,
+      "relative_error": 2.120351560412348e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.0, theta=0.7",
+      "actual": 0.5046192921578445,
+      "expected": 0.5046192921578445,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.0, theta=1.3",
+      "actual": 0.4801425751168713,
+      "expected": 0.48014257511687136,
+      "relative_error": 1.156138907651459e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=20.0, N=0.05",
+      "actual": 0.3025000000000001,
+      "expected": 0.30250000000000005,
+      "relative_error": 1.8350793795457126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=20.0, N=0.05",
+      "actual": 0.05244044240850765,
+      "expected": 0.05244044240850758,
+      "relative_error": 1.3231951496239667e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=20.0, N=0.05",
+      "actual": 1.1000000000000014,
+      "expected": 1.1,
+      "relative_error": 1.2111523905001693e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.05, theta=0.0",
+      "actual": 0.5768448664935835,
+      "expected": 0.5768448664935835,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.05, theta=0.13",
+      "actual": 0.5759636042855907,
+      "expected": 0.5759636042855906,
+      "relative_error": 1.927592327647589e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.05, theta=0.7",
+      "actual": 0.555081221373629,
+      "expected": 0.555081221373629,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.05, theta=1.3",
+      "actual": 0.5281568326285585,
+      "expected": 0.5281568326285585,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=20.0, N=0.5",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=20.0, N=0.5",
+      "actual": 0.09534625892455939,
+      "expected": 0.09534625892455924,
+      "relative_error": 1.6010661310449992e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=20.0, N=0.5",
+      "actual": 2.000000000000003,
+      "expected": 2.0,
+      "relative_error": 1.5543122344752168e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.5, theta=0.0",
+      "actual": 1.0488088481701516,
+      "expected": 1.0488088481701516,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.5, theta=0.13",
+      "actual": 1.0472065532465284,
+      "expected": 1.0472065532465282,
+      "relative_error": 2.120351560412348e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.5, theta=0.7",
+      "actual": 1.009238584315689,
+      "expected": 1.009238584315689,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=0.5, theta=1.3",
+      "actual": 0.9602851502337426,
+      "expected": 0.9602851502337427,
+      "relative_error": 1.156138907651459e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "equilibrium determinant a=20.0, N=3.0",
+      "actual": 12.25,
+      "expected": 12.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "direct readout amplitude a=20.0, N=3.0",
+      "actual": 0.3337119062359575,
+      "expected": 0.3337119062359573,
+      "relative_error": 4.990335992867536e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "dimensionless collapse a=20.0, N=3.0",
+      "actual": 7.0000000000000036,
+      "expected": 7.0,
+      "relative_error": 5.075305255429285e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=3.0, theta=0.0",
+      "actual": 3.6708309685955305,
+      "expected": 3.6708309685955305,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=3.0, theta=0.13",
+      "actual": 3.665222936362849,
+      "expected": 3.6652229363628486,
+      "relative_error": 1.2116294630927705e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=3.0, theta=0.7",
+      "actual": 3.532335045104911,
+      "expected": 3.532335045104911,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quadrature tomography a=20.0, N=3.0, theta=1.3",
+      "actual": 3.3609980258180996,
+      "expected": 3.3609980258180996,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench Rabi limit a=20.0",
+      "actual": 0.050000000000000044,
+      "expected": 0.05,
+      "relative_error": 8.326672684688667e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.0, theta=0.13",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.0, theta=0.7",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.0, theta=1.3",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.2, theta=0.13",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.2, theta=0.7",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=0.2, theta=1.3",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=2.0, theta=0.13",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=2.0, theta=0.7",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.0, N=2.0, theta=1.3",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.0, theta=0.13",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.0, theta=0.7",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.0, theta=1.3",
+      "actual": 0.24999999999999994,
+      "expected": 0.25,
+      "relative_error": 2.220446049250313e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.2, theta=0.13",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.2, theta=0.7",
+      "actual": 0.49000000000000005,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745217e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=0.2, theta=1.3",
+      "actual": 0.4899999999999999,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.132880637372609e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=2.0, theta=0.13",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=2.0, theta=0.7",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=1.3, N=2.0, theta=1.3",
+      "actual": 6.249999999999998,
+      "expected": 6.25,
+      "relative_error": 2.842170943040401e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.0, theta=0.13",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.0, theta=0.7",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.0, theta=1.3",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.2, theta=0.13",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.2, theta=0.7",
+      "actual": 0.4900000000000003,
+      "expected": 0.48999999999999994,
+      "relative_error": 7.930164461608256e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=0.2, theta=1.3",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=2.0, theta=0.13",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=2.0, theta=0.7",
+      "actual": 6.2500000000000036,
+      "expected": 6.25,
+      "relative_error": 5.684341886080799e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.0, rf=3.0, N=2.0, theta=1.3",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.0, theta=0.13",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.0, theta=0.7",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.0, theta=1.3",
+      "actual": 0.24999999999999994,
+      "expected": 0.25,
+      "relative_error": 2.220446049250313e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.2, theta=0.0",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.2, theta=0.13",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.2, theta=0.7",
+      "actual": 0.49000000000000005,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745217e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=0.2, theta=1.3",
+      "actual": 0.4899999999999999,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.132880637372609e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=2.0, theta=0.0",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=2.0, theta=0.13",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=2.0, theta=0.7",
+      "actual": 6.250000000000002,
+      "expected": 6.25,
+      "relative_error": 2.8421709430404e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.0, N=2.0, theta=1.3",
+      "actual": 6.249999999999999,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202004e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.0, theta=0.13",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.0, theta=0.7",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.0, theta=1.3",
+      "actual": 0.24999999999999997,
+      "expected": 0.25,
+      "relative_error": 1.1102230246251565e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.2, theta=0.0",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.2, theta=0.13",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.2, theta=0.7",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=0.2, theta=1.3",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=2.0, theta=0.0",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=2.0, theta=0.13",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=2.0, theta=0.7",
+      "actual": 6.250000000000002,
+      "expected": 6.25,
+      "relative_error": 2.8421709430404e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=1.3, N=2.0, theta=1.3",
+      "actual": 6.249999999999999,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202004e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.0, theta=0.13",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.0, theta=0.7",
+      "actual": 0.25000000000000017,
+      "expected": 0.25,
+      "relative_error": 6.661338147750935e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.0, theta=1.3",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.2, theta=0.0",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.2, theta=0.13",
+      "actual": 0.4899999999999999,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.132880637372609e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.2, theta=0.7",
+      "actual": 0.4900000000000001,
+      "expected": 0.48999999999999994,
+      "relative_error": 3.3986419121178255e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=0.2, theta=1.3",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=2.0, theta=0.0",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=2.0, theta=0.13",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=2.0, theta=0.7",
+      "actual": 6.250000000000006,
+      "expected": 6.25,
+      "relative_error": 9.947598300641394e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=1.15, rf=3.0, N=2.0, theta=1.3",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.0, theta=0.13",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.0, theta=0.7",
+      "actual": 0.2500000000000001,
+      "expected": 0.25,
+      "relative_error": 4.440892098500624e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.0, theta=1.3",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.2, theta=0.13",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.2, theta=0.7",
+      "actual": 0.49000000000000016,
+      "expected": 0.48999999999999994,
+      "relative_error": 4.531522549490433e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=0.2, theta=1.3",
+      "actual": 0.4900000000000001,
+      "expected": 0.48999999999999994,
+      "relative_error": 3.3986419121178255e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=2.0, theta=0.13",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=2.0, theta=0.7",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.0, N=2.0, theta=1.3",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.0, theta=0.13",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.0, theta=0.7",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.0, theta=1.3",
+      "actual": 0.24999999999999997,
+      "expected": 0.25,
+      "relative_error": 1.1102230246251565e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.2, theta=0.13",
+      "actual": 0.49000000000000005,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745217e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.2, theta=0.7",
+      "actual": 0.49000000000000005,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745217e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=0.2, theta=1.3",
+      "actual": 0.4899999999999998,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745218e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=2.0, theta=0.13",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=2.0, theta=0.7",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=1.3, N=2.0, theta=1.3",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.0, theta=0.13",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.0, theta=0.7",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.0, theta=1.3",
+      "actual": 0.24999999999999992,
+      "expected": 0.25,
+      "relative_error": 3.3306690738754696e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.2, theta=0.13",
+      "actual": 0.49000000000000005,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745217e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.2, theta=0.7",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=0.2, theta=1.3",
+      "actual": 0.4899999999999999,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.132880637372609e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=2.0, theta=0.13",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=2.0, theta=0.7",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=2.0, rf=3.0, N=2.0, theta=1.3",
+      "actual": 6.249999999999998,
+      "expected": 6.25,
+      "relative_error": 2.842170943040401e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.0, theta=0.13",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.0, theta=0.7",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.0, theta=1.3",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.2, theta=0.13",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.2, theta=0.7",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=0.2, theta=1.3",
+      "actual": 0.4899999999999998,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745218e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=2.0, theta=0.13",
+      "actual": 6.250000000000002,
+      "expected": 6.25,
+      "relative_error": 2.8421709430404e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=2.0, theta=0.7",
+      "actual": 6.2500000000000036,
+      "expected": 6.25,
+      "relative_error": 5.684341886080799e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.0, N=2.0, theta=1.3",
+      "actual": 6.250000000000003,
+      "expected": 6.25,
+      "relative_error": 4.2632564145605995e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.0, theta=0.13",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.0, theta=0.7",
+      "actual": 0.2500000000000001,
+      "expected": 0.25,
+      "relative_error": 4.440892098500624e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.0, theta=1.3",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.2, theta=0.13",
+      "actual": 0.4900000000000001,
+      "expected": 0.48999999999999994,
+      "relative_error": 3.3986419121178255e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.2, theta=0.7",
+      "actual": 0.4899999999999999,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.132880637372609e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=0.2, theta=1.3",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=2.0, theta=0.13",
+      "actual": 6.250000000000002,
+      "expected": 6.25,
+      "relative_error": 2.8421709430404e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=2.0, theta=0.7",
+      "actual": 6.249999999999998,
+      "expected": 6.25,
+      "relative_error": 2.842170943040401e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=1.3, N=2.0, theta=1.3",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.0, theta=0.0",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.0, theta=0.13",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.0, theta=0.7",
+      "actual": 0.25000000000000006,
+      "expected": 0.25,
+      "relative_error": 2.2204460492503126e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.0, theta=1.3",
+      "actual": 0.24999999999999994,
+      "expected": 0.25,
+      "relative_error": 2.220446049250313e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.2, theta=0.0",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.2, theta=0.13",
+      "actual": 0.49,
+      "expected": 0.48999999999999994,
+      "relative_error": 1.1328806373726087e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.2, theta=0.7",
+      "actual": 0.48999999999999994,
+      "expected": 0.48999999999999994,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=0.2, theta=1.3",
+      "actual": 0.4899999999999998,
+      "expected": 0.48999999999999994,
+      "relative_error": 2.265761274745218e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=2.0, theta=0.0",
+      "actual": 6.25,
+      "expected": 6.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=2.0, theta=0.13",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=2.0, theta=0.7",
+      "actual": 6.250000000000001,
+      "expected": 6.25,
+      "relative_error": 1.4210854715202002e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "quench determinant ri=4.0, rf=3.0, N=2.0, theta=1.3",
+      "actual": 6.249999999999998,
+      "expected": 6.25,
+      "relative_error": 2.842170943040401e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "local spectral slope x=0.05",
+      "actual": 1.9995834548147682,
+      "expected": 1.999583454829084,
+      "relative_error": 7.159432020083005e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "check": "local spectral slope x=0.2",
+      "actual": 1.993364313745971,
+      "expected": 1.9933643137629034,
+      "relative_error": 8.494410841440451e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "check": "local spectral slope x=1.0",
+      "actual": 1.8509181282377882,
+      "expected": 1.8509181282393214,
+      "relative_error": 8.283553840740696e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "check": "local spectral slope x=3.0",
+      "actual": 1.2994647089981104,
+      "expected": 1.2994647090064682,
+      "relative_error": 6.4316936592824214e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "check": "local spectral slope x=8.0",
+      "actual": 1.0053674026622161,
+      "expected": 1.0053674026504618,
+      "relative_error": 1.1691621609961451e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "check": "width confinement scaling q=0.5",
+      "actual": 1.4142135623730951,
+      "expected": 1.4142135623730951,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "kinetic confinement scaling q=0.5",
+      "actual": 0.5,
+      "expected": 0.5,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "width confinement scaling q=1.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "kinetic confinement scaling q=1.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "width confinement scaling q=2.0",
+      "actual": 0.7071067811865476,
+      "expected": 0.7071067811865476,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "kinetic confinement scaling q=2.0",
+      "actual": 2.0,
+      "expected": 2.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "width confinement scaling q=4.0",
+      "actual": 0.5,
+      "expected": 0.5,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "kinetic confinement scaling q=4.0",
+      "actual": 4.0,
+      "expected": 4.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "readout scaled energy / nominal transverse gap",
+      "actual": 12.959999999999997,
+      "expected": 12.96,
+      "relative_error": 2.741291418827547e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "rounded unscaled Rabi energy / transverse gap",
+      "actual": 11.0,
+      "expected": 11.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical axial probability normalization T=6.0nK",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical excited tail equals Boltzmann factor T=6.0nK",
+      "actual": 0.0003358860959543839,
+      "expected": 0.0003358860959543839,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical first-level population ratio T=6.0nK",
+      "actual": 0.0003358860959543839,
+      "expected": 0.0003358860959543839,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical mean excitation distinct from excited fraction T=6.0nK",
+      "actual": 0.000335998953331063,
+      "expected": 0.000335998953331063,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical axial probability normalization T=12.0nK",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical excited tail equals Boltzmann factor T=12.0nK",
+      "actual": 0.018327195528895956,
+      "expected": 0.018327195528895956,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical first-level population ratio T=12.0nK",
+      "actual": 0.018327195528895956,
+      "expected": 0.018327195528895956,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "canonical mean excitation distinct from excited fraction T=12.0nK",
+      "actual": 0.01866935240074222,
+      "expected": 0.01866935240074222,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=0.1, deltaZ=0.0",
+      "actual": 4.440892098500626e-16,
+      "expected": 0.0,
+      "absolute_error": 4.440892098500626e-16,
+      "relative_error": 4.440892098500626e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "balanced up-spin common potential n=0.1",
+      "actual": 1.1235294117647059,
+      "expected": 1.1235294117647059,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "balanced down-spin common potential n=0.1",
+      "actual": 1.1235294117647054,
+      "expected": 1.1235294117647059,
+      "absolute_error": 4.440892098500626e-16,
+      "relative_error": 3.9526264751052696e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=0.1, deltaZ=-0.001",
+      "actual": -0.017849999999999255,
+      "expected": -0.01785,
+      "absolute_error": 7.4593109467002705e-16,
+      "relative_error": 7.4593109467002705e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=0.1, deltaZ=0.001",
+      "actual": 0.017849999999999477,
+      "expected": 0.01785,
+      "absolute_error": 5.238864897449957e-16,
+      "relative_error": 5.238864897449957e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=0.1, deltaZ=0.05",
+      "actual": 0.8925000000000007,
+      "expected": 0.8925000000000001,
+      "absolute_error": 6.661338147750939e-16,
+      "relative_error": 6.661338147750939e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=1.0, deltaZ=0.0",
+      "actual": -8.881784197001252e-15,
+      "expected": 0.0,
+      "absolute_error": 8.881784197001252e-15,
+      "relative_error": 8.881784197001252e-15,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "balanced up-spin common potential n=1.0",
+      "actual": 11.235294117647056,
+      "expected": 11.235294117647058,
+      "absolute_error": 1.7763568394002505e-15,
+      "relative_error": 1.581050590042108e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "balanced down-spin common potential n=1.0",
+      "actual": 11.235294117647065,
+      "expected": 11.235294117647058,
+      "absolute_error": 7.105427357601002e-15,
+      "relative_error": 6.324202360168428e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=1.0, deltaZ=-0.001",
+      "actual": -0.1784999999999961,
+      "expected": -0.1785,
+      "absolute_error": 3.885780586188048e-15,
+      "relative_error": 3.885780586188048e-15,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=1.0, deltaZ=0.001",
+      "actual": 0.17849999999999966,
+      "expected": 0.1785,
+      "absolute_error": 3.3306690738754696e-16,
+      "relative_error": 3.3306690738754696e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=1.0, deltaZ=0.05",
+      "actual": 8.925000000000015,
+      "expected": 8.925,
+      "absolute_error": 1.4210854715202004e-14,
+      "relative_error": 1.5922526291542834e-15,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=3.0, deltaZ=0.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "balanced up-spin common potential n=3.0",
+      "actual": 33.705882352941174,
+      "expected": 33.705882352941174,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "balanced down-spin common potential n=3.0",
+      "actual": 33.705882352941174,
+      "expected": 33.705882352941174,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=3.0, deltaZ=-0.001",
+      "actual": -0.5355000000000061,
+      "expected": -0.5355,
+      "absolute_error": 6.106226635438361e-15,
+      "relative_error": 6.106226635438361e-15,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=3.0, deltaZ=0.001",
+      "actual": 0.535499999999999,
+      "expected": 0.5355,
+      "absolute_error": 9.992007221626409e-16,
+      "relative_error": 9.992007221626409e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "mean-field difference n=3.0, deltaZ=0.05",
+      "actual": 26.775000000000006,
+      "expected": 26.775000000000002,
+      "absolute_error": 3.552713678800501e-15,
+      "relative_error": 1.3268771909619048e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "Gaussian ground-profile overlap ell_up=0.97",
+      "actual": 0.9997681219132263,
+      "expected": 0.9997681219132263,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "Gaussian nu=2 overlap ell_up=0.97",
+      "actual": -0.021526261311959304,
+      "expected": -0.021526261311959307,
+      "absolute_error": 3.469446951953614e-18,
+      "relative_error": 3.469446951953614e-18,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "nu=2 overlap lies within complementary weight ell_up=0.97",
+      "actual": 0.00046337992607075603,
+      "expected": 0.0004637024061002748,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "Gaussian ground-profile overlap ell_up=1.0",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "absolute_error": 2.220446049250313e-16,
+      "relative_error": 2.220446049250313e-16,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "Gaussian nu=2 overlap ell_up=1.0",
+      "actual": 3.883734967075843e-18,
+      "expected": 0.0,
+      "absolute_error": 3.883734967075843e-18,
+      "relative_error": 3.883734967075843e-18,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "nu=2 overlap lies within complementary weight ell_up=1.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "common-profile uniform-RF off-sector matrix element",
+      "actual": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "common-profile total complementary overlap is zero",
+      "actual": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "Gaussian ground-profile overlap ell_up=1.03",
+      "actual": 0.9997816249503849,
+      "expected": 0.9997816249503849,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "Gaussian nu=2 overlap ell_up=1.03",
+      "actual": 0.020890581363736543,
+      "expected": 0.020890581363736543,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "nu=2 overlap lies within complementary weight ell_up=1.03",
+      "actual": 0.00043641638971489655,
+      "expected": 0.0004367024115679019,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "Gaussian ground-profile overlap ell_up=1.3",
+      "actual": 0.9831290611762872,
+      "expected": 0.9831290611762872,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "Gaussian nu=2 overlap ell_up=1.3",
+      "actual": 0.17831683490636754,
+      "expected": 0.1783168349063675,
+      "absolute_error": 5.551115123125783e-17,
+      "relative_error": 5.551115123125783e-17,
+      "tolerance": 2e-11,
+      "tolerance_type": "absolute",
+      "passed": true
+    },
+    {
+      "check": "nu=2 overlap lies within complementary weight ell_up=1.3",
+      "actual": 0.03179689361102472,
+      "expected": 0.03345724907063219,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier transverse width lambda=0.2",
+      "actual": 0.20000000000000004,
+      "expected": 0.2,
+      "relative_error": 1.3877787807814454e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier spin / gap lambda=0.2",
+      "actual": 0.036000000000000004,
+      "expected": 0.036000000000000004,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier localization cost lambda=0.2",
+      "actual": 24.999999999999996,
+      "expected": 24.999999999999996,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched simultaneous length and scattering scaling lambda=0.2",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier transverse width lambda=0.25",
+      "actual": 0.25,
+      "expected": 0.25,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier spin / gap lambda=0.25",
+      "actual": 0.05625,
+      "expected": 0.05625,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier localization cost lambda=0.25",
+      "actual": 16.0,
+      "expected": 16.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched simultaneous length and scattering scaling lambda=0.25",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier transverse width lambda=0.3333333333333333",
+      "actual": 0.33333333333333337,
+      "expected": 0.3333333333333333,
+      "relative_error": 1.6653345369377346e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier spin / gap lambda=0.3333333333333333",
+      "actual": 0.1,
+      "expected": 0.09999999999999999,
+      "relative_error": 1.3877787807814457e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier localization cost lambda=0.3333333333333333",
+      "actual": 9.000000000000002,
+      "expected": 9.000000000000002,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched simultaneous length and scattering scaling lambda=0.3333333333333333",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier transverse width lambda=0.5",
+      "actual": 0.5,
+      "expected": 0.5,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier spin / gap lambda=0.5",
+      "actual": 0.225,
+      "expected": 0.225,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier localization cost lambda=0.5",
+      "actual": 4.0,
+      "expected": 4.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched simultaneous length and scattering scaling lambda=0.5",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier transverse width lambda=1.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier spin / gap lambda=1.0",
+      "actual": 0.9,
+      "expected": 0.9,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier localization cost lambda=1.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched simultaneous length and scattering scaling lambda=1.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier transverse width lambda=1.04",
+      "actual": 1.04,
+      "expected": 1.04,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier spin / gap lambda=1.04",
+      "actual": 0.9734400000000001,
+      "expected": 0.9734400000000001,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier localization cost lambda=1.04",
+      "actual": 0.9245562130177513,
+      "expected": 0.9245562130177514,
+      "relative_error": 1.2008172234345694e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched simultaneous length and scattering scaling lambda=1.04",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier transverse width lambda=1.1",
+      "actual": 1.1000000000000003,
+      "expected": 1.1,
+      "relative_error": 2.018587317500284e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier spin / gap lambda=1.1",
+      "actual": 1.0890000000000002,
+      "expected": 1.0890000000000002,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched-carrier localization cost lambda=1.1",
+      "actual": 0.8264462809917354,
+      "expected": 0.8264462809917354,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "matched simultaneous length and scattering scaling lambda=1.1",
+      "actual": 1.0,
+      "expected": 1.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "lambda screening threshold for epsilon_star=0.1",
+      "actual": 0.33333333333333337,
+      "expected": 0.3333333333333333,
+      "relative_error": 1.6653345369377346e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.0, T=0.001",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.0, T=0.1",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.0, T=1.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.0, T=3.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.5, T=0.001",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.5, T=0.1",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.5, T=1.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=0.5, T=3.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=5.0, T=0.001",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=5.0, T=0.1",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=5.0, T=1.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.0, delta=5.0, T=3.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.0, T=0.001",
+      "actual": 1.9999999998666667e-05,
+      "expected": 2e-05,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.0, T=0.1",
+      "actual": 0.0019999986666669333,
+      "expected": 0.002,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.0, T=1.0",
+      "actual": 0.01999866669333308,
+      "expected": 0.02,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.0, T=3.0",
+      "actual": 0.059964006479444595,
+      "expected": 0.06,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.5, T=0.001",
+      "actual": 1.999999979033333e-05,
+      "expected": 2e-05,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.5, T=0.1",
+      "actual": 0.0019997903399272513,
+      "expected": 0.002,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.5, T=1.0",
+      "actual": 0.01979099174832973,
+      "expected": 0.02,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=0.5, T=3.0",
+      "actual": 0.054497091765262726,
+      "expected": 0.06,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=5.0, T=0.001",
+      "actual": 1.999997916533985e-05,
+      "expected": 2e-05,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=5.0, T=0.1",
+      "actual": 0.0019792303490178695,
+      "expected": 0.002,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=5.0, T=1.0",
+      "actual": 0.004787111228692907,
+      "expected": 0.02,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.02, delta=5.0, T=3.0",
+      "actual": 0.007504424989487669,
+      "expected": 0.06,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.0, T=0.001",
+      "actual": 9.999999983333334e-05,
+      "expected": 0.0001,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.0, T=0.1",
+      "actual": 0.009999833334166666,
+      "expected": 0.010000000000000002,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.0, T=1.0",
+      "actual": 0.09983341664682815,
+      "expected": 0.1,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.0, T=3.0",
+      "actual": 0.2955202066613396,
+      "expected": 0.30000000000000004,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.5, T=0.001",
+      "actual": 9.999999879166669e-05,
+      "expected": 0.0001,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.5, T=0.1",
+      "actual": 0.009998791710467997,
+      "expected": 0.010000000000000002,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.5, T=1.0",
+      "actual": 0.09879603932153468,
+      "expected": 0.1,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=0.5, T=3.0",
+      "actual": 0.26842300352925913,
+      "expected": 0.30000000000000004,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=5.0, T=0.001",
+      "actual": 9.999989566669935e-05,
+      "expected": 0.0001,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=5.0, T=0.1",
+      "actual": 0.009895992743688077,
+      "expected": 0.010000000000000002,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=5.0, T=1.0",
+      "actual": 0.023855695165795075,
+      "expected": 0.1,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=0.1, delta=5.0, T=3.0",
+      "actual": 0.03757243704404231,
+      "expected": 0.30000000000000004,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.0, T=0.001",
+      "actual": 0.0009999998333333417,
+      "expected": 0.001,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.0, T=0.1",
+      "actual": 0.09983341664682815,
+      "expected": 0.1,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.0, T=1.0",
+      "actual": 0.8414709848078965,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.0, T=3.0",
+      "actual": 0.1411200080598672,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.5, T=0.001",
+      "actual": 0.000999999822916676,
+      "expected": 0.001,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.5, T=0.1",
+      "actual": 0.09982301071839216,
+      "expected": 0.1,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.5, T=1.0",
+      "actual": 0.8320897083740797,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=0.5, T=3.0",
+      "actual": 0.04777322255868932,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=5.0, T=0.001",
+      "actual": 0.0009999987916671047,
+      "expected": 0.001,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=5.0, T=0.1",
+      "actual": 0.09879603932153466,
+      "expected": 0.1,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=5.0, T=1.0",
+      "actual": 0.16121107496476533,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=1.0, delta=5.0, T=3.0",
+      "actual": 0.3621314507206762,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.0, T=0.001",
+      "actual": 0.002999995500002025,
+      "expected": 0.003,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.0, T=0.1",
+      "actual": 0.2955202066613396,
+      "expected": 0.30000000000000004,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.0, T=1.0",
+      "actual": 0.1411200080598672,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.0, T=3.0",
+      "actual": 0.4121184852417566,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.5, T=0.001",
+      "actual": 0.0029999954687520533,
+      "expected": 0.003,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.5, T=0.1",
+      "actual": 0.2954892379791127,
+      "expected": 0.30000000000000004,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.5, T=1.0",
+      "actual": 0.1303661067078089,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=0.5, T=3.0",
+      "actual": 0.3821743195621139,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=5.0, T=0.001",
+      "actual": 0.002999992375005814,
+      "expected": 0.003,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=5.0, T=0.1",
+      "actual": 0.2924329299656738,
+      "expected": 0.30000000000000004,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=5.0, T=1.0",
+      "actual": 0.5312076504364942,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "check": "finite-pulse leakage bound v=3.0, delta=5.0, T=3.0",
+      "actual": 0.5776543437600906,
+      "expected": 1.0,
+      "kind": "upper_bound",
+      "absolute_violation": 0.0,
+      "relative_error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    }
+  ]
+}

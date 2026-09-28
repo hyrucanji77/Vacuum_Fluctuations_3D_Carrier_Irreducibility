@@ -1,0 +1,175 @@
+--- v3/analysis/reproduce.py
++++ v4/analysis/reproduce.py
+@@ -7,6 +7,7 @@
+ Python 3.10+; standard library only. Outputs are written beside this script.
+ """
+ from __future__ import annotations
++from collections import Counter
+ import csv
+ import json
+ import math
+@@ -44,10 +45,10 @@
+ 
+ 
+ def check_close(a: float, b: float, name: str, records: list[dict],
+-                tolerance: float = 2e-11) -> None:
++                tolerance: float = 2e-11, *, category: str = 'analytic_check') -> None:
+     error = abs(a - b) / max(abs(a), abs(b), 1e-30)
+     passed = math.isfinite(a) and math.isfinite(b) and error < tolerance
+-    records.append({'check': name, 'actual': a, 'expected': b,
++    records.append({'check': name, 'category': category, 'actual': a, 'expected': b,
+                     'relative_error': error, 'tolerance': tolerance, 'passed': passed})
+     if not passed:
+         raise ArithmeticError(f'{name}: {a!r} != {b!r}; relative error {error:g}')
+@@ -55,11 +56,11 @@
+ 
+ 
+ def check_absolute(actual: float, expected: float, name: str, records: list[dict],
+-                   tolerance: float = 2e-11) -> None:
++                   tolerance: float = 2e-11, *, category: str = 'analytic_check') -> None:
+     """Check identities which may vanish; use absolute tolerance near zero."""
+     error = abs(actual - expected)
+     passed = math.isfinite(actual) and math.isfinite(expected) and error <= tolerance
+-    records.append({'check': name, 'actual': actual, 'expected': expected,
++    records.append({'check': name, 'category': category, 'actual': actual, 'expected': expected,
+                     'absolute_error': error,
+                     'relative_error': error / max(1., abs(actual), abs(expected)),
+                     'tolerance': tolerance, 'tolerance_type': 'absolute', 'passed': passed})
+@@ -68,12 +69,12 @@
+ 
+ 
+ def check_upper(actual: float, bound: float, name: str, records: list[dict],
+-                tolerance: float = 2e-11) -> None:
++                tolerance: float = 2e-11, *, category: str = 'analytic_check') -> None:
+     """Check a non-negative amplitude against a mathematically specified bound."""
+     violation = max(0., actual - bound, -actual)
+     passed = (math.isfinite(actual) and math.isfinite(bound)
+               and violation <= tolerance)
+-    records.append({'check': name, 'actual': actual, 'expected': bound,
++    records.append({'check': name, 'category': category, 'actual': actual, 'expected': bound,
+                     'kind': 'upper_bound', 'absolute_violation': violation,
+                     'relative_error': violation / max(1., abs(actual), abs(bound)),
+                     'tolerance': tolerance, 'passed': passed})
+@@ -96,7 +97,9 @@
+     ratio = 20. * ALPHA * MU_S_OVER_H / FZ
+     check_close(ratio, 12.96, 'readout scaled energy / nominal transverse gap', records)
+     unscaled = math.sqrt(ALPHA) * ratio
+-    check_close(round(unscaled, 1), 11., 'rounded unscaled Rabi energy / transverse gap', records)
++    check_close(round(unscaled, 1), 11.,
++                'printed-value consistency: unscaled Rabi energy / transverse gap',
++                records, category='printed_value_consistency')
+ 
+     thermal = []
+     for temperature_nk in [6., 12.]:
+@@ -118,7 +121,8 @@
+                         'canonical_excited_percent': 100*b,
+                         'canonical_mean_nu': mean_nu})
+ 
+-    # Source scattering-length ratios; an arbitrary common prefactor is set to one.
++    # Zhang et al., arXiv:2608.20311v1, p. 5: scattering lengths 31, -53, 220 a0.
++    # A common transverse profile gives the same coupling ratios; its common prefactor is set to one.
+     # Exact algebra at Z0 is tested, not a measured common transverse profile.
+     guu, gud, gdd = 31., -53., 220.
+     kappa = (guu + gdd - 2*gud) / 4
+@@ -208,6 +212,45 @@
+         'pulse_bound_scope': 'Exactly solvable two-sector toy Hamiltonians; no actual experimental leakage fit.'}
+ 
+ 
++def dispersion_checks(records: list[dict]) -> None:
++    """Check Eq. (48) directly and Eq. (49) along four finite Josephson-limit rays.
++
++    e = epsilon_k / mu_s_prime and q = hbar*Omega_prime / mu_s_prime.
++    The expanded SI expression is compared with the dimensionless product.
++    The joint zero is a polynomial check only, not a harmonic vacuum mode.
++    Limit tests use squared-frequency error, not frequency error or a fitted spectrum.
++    """
++    mu = ALPHA * H * MU_S_OVER_H
++    frequency_unit = mu / HBAR
++    for e in [0., 0.02, 0.5, 2.]:
++        for q in [0., 0.04, 1., 20.]:
++            k2 = 2 * MASS * mu * e / HBAR**2
++            omega_prime = q * frequency_unit
++            expanded = (omega_prime * (omega_prime + 2 * frequency_unit)
++                        + (mu + HBAR * omega_prime) / MASS * k2
++                        + HBAR**2 / (4 * MASS**2) * k2**2)
++            check_close(expanded / frequency_unit**2, (e+q) * (e+q+2),
++                        f'Eq. (48) expanded versus factorized dispersion e={e}, q={q}',
++                        records, category='dispersion_identity')
++    for e0, q0 in [(1., 0.), (0., 1.), (1., 1.), (1., 2.)]:
++        previous_error = math.inf
++        for scale in [0.1, 0.01, 0.001]:
++            e, q = scale*e0, scale*q0
++            k2 = 2 * MASS * mu * e / HBAR**2
++            omega_prime = q * frequency_unit
++            exact = (e+q) * (e+q+2) * frequency_unit**2
++            josephson = 2*mu*omega_prime/HBAR + mu/MASS*k2
++            error = (exact-josephson) / exact
++            label = f'e0={e0}, q0={q0}, scale={scale}'
++            check_close(error, (e+q)/(2+e+q),
++                        'Eq. (49) relative squared-frequency error ' + label,
++                        records, category='josephson_limit')
++            check_upper(error, min(previous_error, (e+q)/2),
++                        'Eq. (49) Josephson convergence and error bound ' + label,
++                        records, category='josephson_limit')
++            previous_error = error
++
++
+ def main() -> None:
+     records: list[dict] = []
+     nominal = scale_row(FZ)
+@@ -217,16 +260,21 @@
+     kinetic = HBAR * omega / 4
+     check_close(kinetic, HBAR**2 / (8 * MASS * sigma**2),
+                 'harmonic ground state saturates finite-energy width bound', records)
+-    check_close(round(ell / L, 4), 0.0154, 'manuscript rounded aspect ratio', records)
++    check_close(round(ell / L, 4), 0.0154,
++                'printed-value consistency: oscillator-length / box-side aspect ratio',
++                records, category='printed_value_consistency')
+     # Compare independent expressions for the Gaussian quartic overlap coupling.
+     a = 5e-9                       # Analytic test value; not a source scattering length.
+     g3 = 4 * math.pi * HBAR**2 * a / MASS
+     g2 = g3 / (math.sqrt(2 * math.pi) * ell)
+     g2_b = math.sqrt(8 * math.pi) * HBAR**2 * a / (MASS * ell)
+     check_close(g2, g2_b, 'Gaussian transverse overlap coupling identity', records)
++    # Arithmetic cancellation only; the scale_row-based family in revision_checks
++    # supplies the nontrivial implementation checks for Proposition 14.1.
+     for multiplier in [0.2, 0.5, 2., 5.]:
+         check_close((multiplier*a)/(multiplier*ell), a/ell,
+-                    f'planar coupling non-identifiability lambda={multiplier}', records)
++                    f'arithmetic sanity: common-factor cancellation lambda={multiplier}',
++                    records, category='arithmetic_sanity')
+ 
+     # Dimensionless a = epsilon/mu_s_prime + hbar*Omega_prime/mu_s_prime.
+     # Covariance uses [Q,P]=i; no factor-of-two convention from external texts is imported.
+@@ -278,6 +326,7 @@
+         check_close(row['kinetic_over_kB_nK']/nominal['kinetic_over_kB_nK'],
+                     q, f'kinetic confinement scaling q={q}', records)
+     additional = revision_checks(records)
++    dispersion_checks(records)
+     payload = {
+         'revision_diagnostics': additional,
+         'status': 'nominal analytic calculation; no new experimental data or fit',
+@@ -300,12 +349,21 @@
+     with (OUT/'confinement_family.csv').open('w', newline='') as file:
+         writer = csv.DictWriter(file, fieldnames=list(family[0]))
+         writer.writeheader(); writer.writerows(family)
++    categories = dict(sorted(Counter(r['category'] for r in records).items()))
++    auxiliary = sum(categories.get(key, 0) for key in
++                    ['arithmetic_sanity', 'printed_value_consistency'])
+     report = {'all_passed': all(r['passed'] for r in records), 'checks': len(records),
+-              'scope': 'Numerical checks of named analytic identities; not experimental validation.',
++              'analytic_or_model_checks': len(records)-auxiliary,
++              'auxiliary_checks': auxiliary, 'counts_by_category': categories,
++              'scope': ('Finite-case analytic checks and illustrative model benchmarks; '
++                        'arithmetic sanity and printed-value consistency counted separately; '
++                        'not proofs or experimental validation.'),
+               'max_relative_error': max(r['relative_error'] for r in records),
+               'details': records}
+     (OUT/'analytic_checks.json').write_text(json.dumps(report, indent=2)+'\n')
+-    print(json.dumps({'nominal': nominal, 'checks_passed': len(records)}, indent=2))
++    print(json.dumps({'nominal': nominal, 'checks_passed': len(records),
++                      'analytic_or_model_checks': len(records)-auxiliary,
++                      'auxiliary_checks': auxiliary, 'counts_by_category': categories}, indent=2))
+ 
+ if __name__ == '__main__':
+     main()

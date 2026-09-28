@@ -1,0 +1,121 @@
+[
+  {
+    "group": "Harmonic saturation",
+    "cases": 1,
+    "manuscript": "Eq. (18), using Eqs. (7) and (9)",
+    "scope": "Compares the ground-state kinetic energy with the finite-width lower bound.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Printed-value consistency: aspect ratio",
+    "cases": 1,
+    "manuscript": "Section 7.1",
+    "scope": "Checks only the printed digits 0.0154; not an independent analytic identity.",
+    "category": "printed_value_consistency"
+  },
+  {
+    "group": "Effective interaction identity",
+    "cases": 1,
+    "manuscript": "Eq. (13)",
+    "scope": "Compares the two algebraic expressions for the Gaussian-overlap coupling.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Arithmetic sanity: common-factor cancellation",
+    "cases": 4,
+    "manuscript": "Proposition 14.1; Eq. (59)",
+    "scope": "Exercises (lambda*a)/(lambda*ell)=a/ell. This is only an arithmetic sanity check, not an independent test of Proposition 14.1; see the scale_row-based matched-carrier family below.",
+    "category": "arithmetic_sanity"
+  },
+  {
+    "group": "Mode covariance and readout",
+    "cases": 180,
+    "manuscript": "Eqs. (26), (31), (34), (36), (39), (40), (64), (65), and (71)",
+    "scope": "Uses w=sqrt(a*(a+2)) and tests the specified covariance, readout and quench identities. Eq. (48) and the Josephson limit are now tested in separate named groups.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Quench determinant",
+    "cases": 144,
+    "manuscript": "Appendix A, Eqs. (67)--(69)",
+    "scope": "Evaluates the displayed covariance components and checks determinant preservation on the finite parameter grid.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Local spectral slope",
+    "cases": 5,
+    "manuscript": "Eqs. (45)--(46)",
+    "scope": "Compares the analytic slope with a centred logarithmic finite difference at five positive values.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Fixed-scattering confinement scaling",
+    "cases": 8,
+    "manuscript": "Eqs. (63), (75); Table 4",
+    "scope": "Checks square-root width scaling and linear kinetic-energy scaling.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Scaled readout-to-gap ratio",
+    "cases": 1,
+    "manuscript": "Eq. (21a); Table 2",
+    "scope": "Checks the nominal 12.96 value from the declared inputs.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Printed-value consistency: unscaled Rabi ratio",
+    "cases": 1,
+    "manuscript": "Eq. (21a); Table 2",
+    "scope": "Checks only the printed digits 11.0, not a separate analytic identity.",
+    "category": "printed_value_consistency"
+  },
+  {
+    "group": "Conditional axial thermal benchmark",
+    "cases": 8,
+    "manuscript": "Eq. (21b)",
+    "scope": "Checks normalization, the excited tail, p1/p0, and the mean of an independent canonical oscillator at 6 and 12 nK.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Mean-field balance",
+    "cases": 18,
+    "manuscript": "Section 7.2, unnumbered mean-field equations",
+    "scope": "Checks the imbalance-dependent potential difference and the balanced common potential; does not certify actual transverse profiles.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Transverse profile overlaps",
+    "cases": 14,
+    "manuscript": "Section 5.1, unnumbered overlap formulas",
+    "scope": "Compares explicit Gaussian-profile overlaps with Simpson quadrature and checks complementary overlap bounds.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Matched-carrier feasibility",
+    "cases": 29,
+    "manuscript": "Eqs. (59), (59a); finite-resource scaling",
+    "scope": "Checks finite matching transformations, the lambda-squared spin/gap ratio, localization cost, and the illustrative lambda <= 1/3 screen.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Finite-pulse bound",
+    "cases": 60,
+    "manuscript": "Appendix B, Eq. (74a)",
+    "scope": "Checks the amplitude inequality for exactly solvable two-sector constant toy Hamiltonians, not the actual experimental pulse.",
+    "category": "analytic_check"
+  },
+  {
+    "group": "Expanded versus factorized dispersion",
+    "cases": 16,
+    "manuscript": "Eq. (48), compared with Eqs. (24) and (26)",
+    "category": "dispersion_identity",
+    "scope": "Computes all three SI terms of Eq. (48), divides by (mu_s_prime/hbar)^2, and compares with (e+q)(e+q+2); e=epsilon_k/mu_s_prime, q=hbar*Omega_prime/mu_s_prime. Includes a polynomial zero-mode check, not a normalizable-vacuum claim."
+  },
+  {
+    "group": "Josephson-limit relative error and convergence",
+    "cases": 24,
+    "manuscript": "Eq. (49), compared with the exact dispersion in Eqs. (26)/(48)",
+    "category": "josephson_limit",
+    "scope": "On four rays at scales 0.1, 0.01, 0.001, checks squared-frequency relative error (e+q)/(2+e+q), its upper bound (e+q)/2, and nonincrease relative to the preceding scale. Twelve error-identity checks and twelve bound/convergence checks; finite cases, not proof of the asymptote."
+  }
+]

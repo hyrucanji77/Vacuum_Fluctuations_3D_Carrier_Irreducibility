@@ -1,0 +1,368 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{microtype}
+\usepackage{booktabs,longtable,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlength{\emergencystretch}{2em}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\title{Vacuum-Fluctuation Imaging and\\Three-Dimensional Carrier Irreducibility\\[0.5em]\large Annotated Reference Guide and PDF Availability Record}
+\author{Research companion to the TCGS--SEQUENTION manuscript}
+\date{27 September 2026}
+\begin{document}\maketitle
+\section*{Scope and archive coverage}
+This guide identifies the 25 works cited in the accompanying manuscript and explains their evidentiary role. Reference numbers match the manuscript. Foundational TCGS works are cited as independent papers, not as undifferentiated compilations.
+
+\textbf{Six of the 25 cited works are supplied as actual PDFs: the central experiment and five complete framework-paper extracts. Nineteen external reference PDFs are not included.} Their texts or full HTML versions were accessible through the browser, but PDF byte downloads into the working filesystem failed. The source archive preserves the two full supplied framework compilations as well. This availability record must not be read as a completed external-PDF collection.
+
+The companion \texttt{reference\_manifest.json} records a versioned PDF target for each missing reference. The supplied downloader validates the signature, page tree, and recognizable title of each received PDF and records a SHA-256 hash. It reports failures rather than saving an HTML error page under a PDF filename. This guide summarizes references; it is not a replacement copy of any article.
+
+\section*{Reading order and evidentiary roles}
+For the carrier argument, start with the experiment [1], the quasi-two-dimensional review [5], and the trapped-gas theory [6]. Read the platform precursor [9] for the specific spin-field mapping. The confinement argument should be understood before connecting it to the framework foundations [2--4].
+
+For the fluctuation and measurement argument, the central sources are the experiment [1], Gaussian covariance theory [13], and image-correlation extraction [11]. The Wigner-method review [12] supplies the computational approximation context; the electromagnetic papers [14,15] supply a distinct measurement comparison, not interchangeable data.
+
+For dimensional comparisons, use the Planck analysis [4] with the independent spectral sources [19--22]. The holographic works [23--25] specify the technical claims that must be separated from a finite-width atomic carrier. These comparison references prevent unsupported extensions of the experimental conclusion.
+
+\section*{Reference entries}
+\begin{minipage}{\textwidth}
+\subsection*{[1] Imaging the vacuum fluctuations of a quantum field}
+Y. Zhang; F. Wang; Y. Jiang; A. C. Jenkins; P. H. C. Wong; C. Eigen; G. Carlse; Z. Hadzibabic. arXiv preprint, 20 August 2026.
+
+\textbf{Role:} Central experimental source: planar spin-field preparation, ground-state covariance, the inverse-frequency amplitude, finite transverse confinement, and the full imaging/calibration protocol.
+
+\textbf{Version/provenance:} The original uploaded seven-page PDF includes Supplementary Materials. Its filename is preserved exactly.
+
+\textbf{Availability: INCLUDED PDF}, 7 pages.\par
+\path{references/external/2608.20311v1.pdf}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[2] Timeless Counterspace \& Shadow Gravity---A Unified Framework: 4D-Counterduction, Foundational Consistency, and Cartographic Inquiry}
+Henry Arellano-Pe\~na. Preprints, version 2, 11 August 2026.
+
+\textbf{DOI:} \url{https://doi.org/10.20944/preprints202511.1472.v2}.
+
+\textbf{Role:} Governing framework definitions: source and shadow, the four axioms, typed constitutive maps, 4D-Counterduction, and the separation of foliation, gauge label, and operational clock.
+
+\textbf{Version/provenance:} Complete constituent paper, including publisher cover, extracted without rewriting from the supplied governing compilation. Cite the paper, not the compilation.
+
+\textbf{Availability: INCLUDED PDF}, 24 pages.\par
+\path{references/framework/ArellanoPena_2026_Timeless_Counterspace_v2.pdf}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[3] Why 4D-Counterspace Exists: A Formal Logical Demonstration within the TCGS--SEQUENTION Framework}
+Henry Arellano-Pe\~na. Preprint, 28 April 2026.
+
+\textbf{DOI:} \url{https://doi.org/10.13140/RG.2.2.29353.76641}.
+
+\textbf{Role:} Upstream source-completion argument and explicit distinction between a counter-coordinate, foliation structure, its index, and operational time. It is not replaced by the cold-atom calculation.
+
+\textbf{Version/provenance:} Complete constituent paper extracted from the supplied governing compilation.
+
+\textbf{Availability: INCLUDED PDF}, 15 pages.\par
+\path{references/framework/ArellanoPena_2026_Why_4D_Counterspace.pdf}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[4] Planck-Scale Dimensional Reduction Without Topological Collapse: Spectral Dimension, Curvature Thresholds, and a Conditional TCGS--SEQUENTION Interpretation}
+Henry Arellano-Pe\~na. Preprint, 1 September 2026.
+
+\textbf{Role:} Framework comparison between spectral dimension, carrier topology, and boundary dimension. Prevents the laboratory carrier argument from being promoted into a refutation of technical spectral reduction.
+
+\textbf{Version/provenance:} Exact September manuscript supplied in the supplemental compilation; no unverified public DOI is assigned.
+
+\textbf{Availability: INCLUDED PDF}, 40 pages.\par
+\path{references/framework/ArellanoPena_2026_Planck_Dimensional_Reduction.pdf}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[5] Two-dimensional Bose fluids: An atomic physics perspective}
+Z. Hadzibabic; J. Dalibard. Rivista del Nuovo Cimento 34, 389 (2011).
+
+\textbf{DOI:} \url{https://doi.org/10.1393/ncr/i2011-10066-3}.
+
+\textbf{Role:} Principal dimensional-reduction reference: confinement scales, effective two-dimensional interactions, planar coherence, and the physical meaning of a quasi-two-dimensional atomic gas.
+
+\textbf{Version/provenance:} Version 3 is the September 2011 revision. The preprint is longer than the journal citation might suggest.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/0912.1490v3}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[6] Bose-Einstein Condensation in Quasi-2D Trapped Gases}
+D. S. Petrov; M. Holzmann; G. V. Shlyapnikov. Physical Review Letters 84, 2551--2555 (2000).
+
+\textbf{DOI:} \url{https://doi.org/10.1103/PhysRevLett.84.2551}.
+
+\textbf{Role:} Foundational treatment of quasi-two-dimensional trapped gases. Supports the controlled distinction between confined transverse motion and effective in-plane physics.
+
+\textbf{Version/provenance:} The downloadable preprint has four pages; the published pagination is 2551--2555.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/cond-mat/9909344v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[7] Emergence of coherence via transverse condensation in a uniform quasi-two-dimensional Bose gas}
+L. Chomaz; L. Corman; T. Bienaim\'e; R. Desbuquois; C. Weitenberg; S. Nascimb\`ene; J. Beugnon; J. Dalibard. Nature Communications 6, 6162 (2015).
+
+\textbf{DOI:} \url{https://doi.org/10.1038/ncomms7162}.
+
+\textbf{Role:} Experimental carrier context: transverse condensation and in-plane coherence are distinct aspects of one confined atomic system.
+
+\textbf{Version/provenance:} The preprint title omits ``via transverse condensation.'' The publisher confirms article 6162; the arXiv journal-reference field displays 6172. The bibliography follows the publisher, not that metadata error.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/1411.3577v1}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[8] Quantum gases in optical boxes}
+N. Navon; R. P. Smith; Z. Hadzibabic. Nature Physics 17, 1334--1341 (2021).
+
+\textbf{DOI:} \url{https://doi.org/10.1038/s41567-021-01403-z}.
+
+\textbf{Role:} Experimental review of homogeneous traps and boundary control. Establishes why an optical box helps separate bulk correlations from trap inhomogeneity.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/2106.09716v1}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[9] Analog Simulation of Massive Relativistic Quantum Fields in 2+1 Dimensions}
+Y. Zhang; F. Wang; P. H. C. Wong; A. C. Jenkins; Y. Jiang; K. Konstantinou; G. Carlse; N. Dogra; J. H. Thywissen; C. Eigen; Z. Hadzibabic. arXiv preprint, version 2, 20 August 2026.
+
+\textbf{Role:} Immediate platform precursor: spin-density separation, controllable relativistic dispersion, and the sine-Gordon mapping. Necessary context for the quantum-field interpretation of the imaging experiment.
+
+\textbf{Version/provenance:} Version 2 is cited explicitly. Its full HTML text and bibliographic record were inspected; the approximately 12 MB PDF exceeded the browser PDF limit and was not downloaded locally.
+
+\textbf{Availability: NOT INCLUDED.} arXiv record and full HTML text inspected; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/2603.08840v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[10] Domain walls of relative phase in two-component Bose-Einstein condensates}
+D. T. Son; M. A. Stephanov. Physical Review A 65, 063621 (2002).
+
+\textbf{DOI:} \url{https://doi.org/10.1103/PhysRevA.65.063621}.
+
+\textbf{Role:} Theoretical origin of relative-phase domain walls in coherently coupled condensates; supports the sine-Gordon potential rather than a literal spacetime identification.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/cond-mat/0103451v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[11] Extracting density-density correlations from in situ images of atomic quantum gases}
+C.-L. Hung; X. Zhang; L.-C. Ha; S.-K. Tung; N. Gemelke; C. Chin. New Journal of Physics 13, 075019 (2011).
+
+\textbf{DOI:} \url{https://doi.org/10.1088/1367-2630/13/7/075019}.
+
+\textbf{Role:} Key measurement-method reference: structure-factor extraction, reference images, and removal of imaging-system effects. Grounds the distinction between raw image and calibrated field covariance.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/1105.0030v1}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[12] Dynamics and statistical mechanics of ultra-cold Bose gases using c-field techniques}
+P. B. Blakie; A. S. Bradley; M. J. Davis; R. J. Ballagh; C. W. Gardiner. Advances in Physics 57, 363--455 (2008).
+
+\textbf{DOI:} \url{https://doi.org/10.1080/00018730802564254}.
+
+\textbf{Role:} Wigner and classical-field methods used for quantum-gas calculations. Supplies the scope of phase-space covariance propagation and distinguishes controlled approximations from a universal classical ontology.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/0809.1487v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[13] Gaussian quantum information}
+C. Weedbrook; S. Pirandola; R. Garc\'ia-Patr\'on; N. J. Cerf; T. C. Ralph; J. H. Shapiro; S. Lloyd. Reviews of Modern Physics 84, 621--669 (2012).
+
+\textbf{DOI:} \url{https://doi.org/10.1103/RevModPhys.84.621}.
+
+\textbf{Role:} Principal covariance reference: Gaussian states, canonical transformations, symplectic invariants, measurement, and purity. The manuscript states its own [Q,P]=i normalization explicitly.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/1110.3234v1}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[14] Electric field correlation measurements on the electromagnetic vacuum state}
+I.-C. Benea-Chelmus; F. F. Settembrini; G. Scalari; J. Faist. Nature 568, 202--206 (2019).
+
+\textbf{DOI:} \url{https://doi.org/10.1038/s41586-019-1083-9}.
+
+\textbf{Role:} Independent electromagnetic-vacuum measurement context. Supports a comparison of registered field correlations without conflating the electromagnetic and atomic-spin vacuum states.
+
+\textbf{Version/provenance:} The journal article is from 2019; the selected arXiv revision was posted in 2020.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/1809.01785v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[15] Paraxial Theory of Direct Electro-optic Sampling of the Quantum Vacuum}
+A. S. Moskalenko; C. Riek; D. V. Seletskiy; G. Burkard; A. Leitenstorfer. Physical Review Letters 115, 263601 (2015).
+
+\textbf{DOI:} \url{https://doi.org/10.1103/PhysRevLett.115.263601}.
+
+\textbf{Role:} Theory of the electro-optic measurement channel and its mode weighting. It is a theoretical paper, not a substitute citation for a different experimental article.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/1508.06953v1}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[16] Escaping the Minkowski Trap: Why Time Cannot Be a Dimension}
+Henry Arellano-Pe\~na. Preprint, manuscript dated 9 June 2026.
+
+\textbf{Role:} Framework treatment of operational clocks and temporal-coordinate ontology. Used to retain metrology while separating it from the source dimensionality claim.
+
+\textbf{Version/provenance:} The supplied constituent manuscript is dated 9 June. A later public version dated 29 June is not silently substituted or assigned to this exact PDF.
+
+\textbf{Availability: INCLUDED PDF}, 18 pages.\par
+\path{references/framework/ArellanoPena_2026_Minkowski_Trap_June09.pdf}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[17] From Deterministic Counterspace to Stochastic Shadow: Deriving the Born Rule as a Projection Invariant in TCGS-SEQUENTION}
+Henry Arellano-Pe\~na. Preprints, version 1, 26 December 2025.
+
+\textbf{DOI:} \url{https://doi.org/10.20944/preprints202512.2392.v1}.
+
+\textbf{Role:} Framework probability interpretation. The application preserves the distinction between an immersion and a state-space quotient and retains the hypotheses needed for Born-rule assignments.
+
+\textbf{Version/provenance:} Complete constituent manuscript, including its publisher cover, extracted from the supplied governing compilation.
+
+\textbf{Availability: INCLUDED PDF}, 11 pages.\par
+\path{references/framework/ArellanoPena_2025_Born_Projection_Invariant_v1.pdf}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[18] Analogue Gravity}
+C. Barcel\'o; S. Liberati; M. Visser. Living Reviews in Relativity 14, 3 (2011).
+
+\textbf{DOI:} \url{https://doi.org/10.12942/lrr-2011-3}.
+
+\textbf{Role:} Methodological reference for analog models, their mappings and limitations. An equation-level correspondence is not an ontological identity between the laboratory carrier and the simulated target.
+
+\textbf{Version/provenance:} Version 3 corresponds to the 2011 review. The later arXiv version 4 is not the version used here.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/gr-qc/0505065v3}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[19] Dimension and Dimensional Reduction in Quantum Gravity}
+S. Carlip. Classical and Quantum Gravity 34, 193001 (2017).
+
+\textbf{DOI:} \url{https://doi.org/10.1088/1361-6382/aa8535}.
+
+\textbf{Role:} Survey of non-equivalent dimensional estimators. Ensures that topological, spectral, and operational dimensions are not treated as synonyms.
+
+\textbf{Version/provenance:} This is the 2017 Classical and Quantum Gravity review, not the distinct 2019 article with the same title.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/1705.05417v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[20] The Spectral Dimension of the Universe is Scale Dependent}
+J. Ambj\o rn; J. Jurkiewicz; R. Loll. Physical Review Letters 95, 171301 (2005).
+
+\textbf{DOI:} \url{https://doi.org/10.1103/PhysRevLett.95.171301}.
+
+\textbf{Role:} Primary example of scale-dependent spectral dimension in causal dynamical triangulations. Its diffusion-based quantity is not the thickness of an atomic carrier.
+
+\textbf{Version/provenance:} The arXiv preprint title is ``Spectral Dimension of the Universe''; the bibliography uses the published title.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/hep-th/0505113v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[21] Spectral Dimension of the Universe in Quantum Gravity at a Lifshitz Point}
+P. Ho\v rava. Physical Review Letters 102, 161301 (2009).
+
+\textbf{DOI:} \url{https://doi.org/10.1103/PhysRevLett.102.161301}.
+
+\textbf{Role:} Explicit continuum example where anisotropic scaling changes spectral dimension without deleting the coordinate manifold. Supports the crucial non-equivalence of spectral and topological dimension.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/0902.3657v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[22] Fractal Spacetime Structure in Asymptotically Safe Gravity}
+O. Lauscher; M. Reuter. Journal of High Energy Physics 2005(10), 050 (2005).
+
+\textbf{DOI:} \url{https://doi.org/10.1088/1126-6708/2005/10/050}.
+
+\textbf{Role:} Independent spectral-reduction construction in asymptotic safety. Used as a technical comparison, not as an empirical measurement of lower-dimensional material support.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/hep-th/0508202v1}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[23] The World as a Hologram}
+L. Susskind. Journal of Mathematical Physics 36, 6377--6396 (1995).
+
+\textbf{DOI:} \url{https://doi.org/10.1063/1.531249}.
+
+\textbf{Role:} Primary holographic-principle reference. Identifies the actual entropy and information claim rather than a popular zero-thickness-material caricature.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/hep-th/9409089v2}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[24] The Large N Limit of Superconformal Field Theories and Supergravity}
+J. M. Maldacena. Advances in Theoretical and Mathematical Physics 2, 231--252 (1998).
+
+\textbf{DOI:} \url{https://doi.org/10.4310/ATMP.1998.v2.n2.a1}.
+
+\textbf{Role:} Primary bulk-boundary duality example. Retained to distinguish a dual-theory dictionary from transverse mode truncation in a gas.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/hep-th/9711200v3}
+\end{minipage}
+\par\medskip
+\begin{minipage}{\textwidth}
+\subsection*{[25] The Holographic Principle}
+R. Bousso. Reviews of Modern Physics 74, 825--874 (2002).
+
+\textbf{DOI:} \url{https://doi.org/10.1103/RevModPhys.74.825}.
+
+\textbf{Role:} Comprehensive entropy-bound and holography context. Prevents the carrier observation from being used as an unsupported universal refutation of holographic descriptions.
+
+\textbf{Availability: NOT INCLUDED.} PDF text accessible through web reader; PDF byte transfer unavailable.\par
+\textbf{PDF target:} \url{https://arxiv.org/pdf/hep-th/0203101v2}
+\end{minipage}
+\par\medskip
+\section*{Extraction record}
+The framework PDFs retain complete constituent page ranges, including their original page numbering and any publisher cover. They are extracts, not newly issued versions. The full original files remain unchanged under \texttt{sources/}. Compilation page numbers appear only in this packaging record, not as substitute scholarly citations in the manuscript.
+\begin{longtable}{@{}L{0.17\textwidth}L{0.56\textwidth}L{0.20\textwidth}@{}}
+\toprule Reference & Supplied source filename & PDF pages\\\midrule
+{[2]} & \path{TCGS-SEQUENTION_core19(3).pdf} & 1--24\\
+{[3]} & \path{TCGS-SEQUENTION_core19(3).pdf} & 784--798\\
+{[4]} & \path{TCGS-SEQUENTION_core20(6).pdf} & 1131--1170\\
+{[16]} & \path{TCGS-SEQUENTION_core19(3).pdf} & 58--75\\
+{[17]} & \path{TCGS-SEQUENTION_core19(3).pdf} & 305--315\\\bottomrule
+\end{longtable}
+\section*{Rights and verification limits}
+The original manuscripts and third-party papers retain their own licenses. The new article's CC BY 4.0 license does not override third-party terms. Public availability is not a blanket authorization for unrelated republication. Bibliographic verification, readable browser text, and possession of a validated PDF are separate statuses; the manifest keeps those statuses separate.
+
+No raw atom images or experimental covariance datasets were supplied. The accompanying numerical files reproduce nominal scales and analytic identities only. They do not constitute a replication of the experimental fit, an independent measurement of the transverse width, or a verification of the full TCGS source ontology.
+\end{document}

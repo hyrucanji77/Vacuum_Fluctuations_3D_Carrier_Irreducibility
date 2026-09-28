@@ -1,0 +1,25 @@
+{
+  "mode": "MODE B -- SURGICAL UPDATE OF EXISTING .TEX",
+  "revision": "v3; four requested cosmetic/assumption-clarifying edits only",
+  "v2_source_sha256": "1235080cd606cdfd3bf0c2c978f36036b185e71a5fa4b40176d686f7700db7ff",
+  "v3_source_sha256": "c1c94a9387fb7e5627c78fe85e4a897b230947942d3407ad026e141f624622e6",
+  "source_diff_hunks": 4,
+  "all_113_v2_label_values_preserved": true,
+  "all_83_numbered_equation_environment_bodies_unchanged": true,
+  "original_main_equation_numbers_1_through_78_preserved": true,
+  "section_headings_and_order_unchanged": true,
+  "title_abstract_keywords_unchanged": true,
+  "bibliography_unchanged": true,
+  "bibitem_count": 25,
+  "script_sha256": "4cc0e657583c1ca190bca2b4d80caab795f71fc6dafcb0c9a8391573befa1fbe",
+  "script_and_three_regenerated_outputs_byte_identical_to_v2": true,
+  "numerical_parameter_case_checks": 475,
+  "standalone_script_run_passed": true,
+  "compiled_pages": 36,
+  "changes": [
+    "Section 5.1: I_z replaced by I_{L^2(R_z)} in the unnumbered spin-flip formula.",
+    "Table 2: 12.96 row status changed to Derived from reported ratio; value and citation preserved.",
+    "Section 5.1: forward cross-reference to the operating-state mean-field equality in Section 7.2.",
+    "Section 17.6: local Banach-manifold structure and Frechet differentiability of m_sigma explicitly assumed."
+  ]
+}

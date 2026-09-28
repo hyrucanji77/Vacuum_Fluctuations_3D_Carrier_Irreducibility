@@ -1,0 +1,49 @@
+{
+  "revision": "v4",
+  "compiler": "pdfLaTeX via latexmk",
+  "main_pages": 36,
+  "unique_labels": 113,
+  "duplicate_source_labels": 0,
+  "bibitem_count": 25,
+  "v3_label_values_unchanged": true,
+  "numbered_display_environments_unchanged": 83,
+  "main_latex_warnings": [],
+  "layout_diagnostics": {
+    "pages": 36,
+    "target_pages": {
+      "nominal coupling ratios": [
+        15
+      ],
+      "Dedicated checks compare": [
+        34
+      ],
+      "What the sine-Gordon": [
+        19
+      ]
+    },
+    "pixel_changed_pages_vs_v3": [
+      15,
+      34,
+      35,
+      36
+    ],
+    "out_of_page_spans": []
+  },
+  "all_passed": true,
+  "total_checks": 515,
+  "analytic_or_model_checks": 509,
+  "auxiliary_checks": 6,
+  "counts_by_category": {
+    "analytic_check": 469,
+    "arithmetic_sanity": 4,
+    "dispersion_identity": 16,
+    "josephson_limit": 24,
+    "printed_value_consistency": 2
+  },
+  "script_sha256": "ce261859c8779a024d95cc8a2340ccc7c1dea3be93e132825d08cf2e758361ca",
+  "reference_PDFs_included": 6,
+  "external_reference_PDFs_missing": 19,
+  "scope": "Finite-case numerical tests and document preservation; not independent proofs, experimental replication, or source-ontology verification.",
+  "python_version_used": "3.13.5",
+  "nested_brace_label_values_checked": 113
+}

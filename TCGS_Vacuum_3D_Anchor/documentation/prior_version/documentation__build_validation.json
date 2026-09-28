@@ -1,0 +1,21 @@
+{
+  "compiler": "pdfLaTeX",
+  "main_pages": 32,
+  "reference_guide_pages": 8,
+  "unique_labels": 105,
+  "duplicate_labels": 0,
+  "unresolved_cross_reference_keys": [],
+  "bibliography_entries": 25,
+  "cited_keys": 25,
+  "unresolved_citation_keys": [],
+  "uncited_bibliography_entries": [],
+  "main_latex_warnings": [],
+  "guide_latex_warnings": [],
+  "analytic_identity_checks": 344,
+  "analytic_identity_checks_passed": true,
+  "mode": "MODE A — FROM SCRATCH",
+  "external_PDF_bytes_downloaded": 0,
+  "reference_PDFs_included": 6,
+  "external_reference_PDFs_missing": 19,
+  "scope": "Build and numerical consistency audit, not independent experimental replication or peer review."
+}

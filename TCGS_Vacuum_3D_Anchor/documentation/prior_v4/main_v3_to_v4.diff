@@ -1,0 +1,21 @@
+--- v3/overleaf/main.tex
++++ v4/overleaf/main.tex
+@@ -510,6 +510,9 @@
+  \musp=\alpha\mu_s.
+  \label{eq:scaled}
+ \end{equation}
++
++The source reports $a_{\uparrow\uparrow}\simeq31a_0$, $a_{\uparrow\downarrow}\simeq-53a_0$, and $a_{\downarrow\downarrow}\simeq220a_0$ at $B\simeq58.1\,\mathrm G$, where $a_0$ is the Bohr radius; the common-profile reduction therefore gives the nominal coupling ratios $31:-53:220$ used in \path{analysis/reproduce.py}.\cite{zhang2026}
++
+ For a planar wavevector $\boldsymbol k$, let
+ \begin{equation}
+  \epsilon_k=\frac{\hbar^2k^2}{2m},\qquad
+@@ -1195,6 +1198,8 @@
+ The covariance terms are not optional when the same control field enters multiple calibrations. The equations also show why a fitted interaction scale should not be reused as an independent determination of the width without accounting for shared information.
+ 
+ The companion numerical script evaluates the harmonic scales, the finite-energy saturation identity, the dimensionless dispersion, the covariance determinant, and the quench-amplitude limit. It generates only derived values and analytic test cases. No generated row is labeled as an experimental image, an observed spectrum, or a newly fitted temperature.
++
++Dedicated checks compare Equation~\eqref{eq:expanded_dispersion} with the factorized dispersion and test convergence to Equation~\eqref{eq:relativistic} as both dimensionless kinetic energy and coherent coupling decrease. Printed-value consistency and arithmetic sanity checks are counted separately from analytic identities and model benchmarks; the direct cancellation of a common factor in $a/\lop$ is not an independent test of carrier non-identifiability.
+ 
+ The executable numerical supplement is \path{analysis/reproduce.py}, requiring Python 3.10 or later and only the standard library. Running \texttt{python analysis/reproduce.py} regenerates three files in the \path{analysis/} directory: nominal results in \path{nominal_scales.json}, the harmonic sweep in \path{confinement_family.csv}, and the named test report in \path{analytic_checks.json}. The named checks also cover the scaled readout-to-gap ratio, the conditional transverse thermal benchmark, mean-field balance at $Z_0$, common-profile and unequal-profile overlaps, the feasible confinement scaling, and the finite-pulse bound in explicitly declared toy models. They test analytic identities and numerical implementation, not experimental profile equality or source-level closure.
+ 
