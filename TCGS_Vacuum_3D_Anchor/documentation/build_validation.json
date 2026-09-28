@@ -1,9 +1,0 @@
-{
-  "revision": "v5",
-  "engine": "pdfLaTeX via latexmk",
-  "pages": 37,
-  "warnings": [],
-  "equations": 83,
-  "labels": 113,
-  "no_unresolved_references": true
-}
